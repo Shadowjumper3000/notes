@@ -1,48 +1,29 @@
 **Tags:** #concept #rl
 **Related:** [[Temporal Difference Learning]], [[SARSA]], [[Expected SARSA]], [[Bellman Optimality Equation]]
 
-## Definition
+## Overview
 
-Q-learning is an **off-policy** TD control algorithm that directly approximates the optimal action-value function $q_*$, independently of the policy being followed.
+Q-learning is a seminal reinforcement learning algorithm that enables an agent to learn the value of its actions in a given state without requiring a model of the environment. As an **off-policy** temporal difference (TD) control method, Q-learning directly estimates the optimal action-value function ($q_*$), regardless of the agent's current exploration strategy. This decoupling of the behavioral policy from the learned target policy makes it a robust and versatile tool for solving complex discrete-action problems, serving as the historical and theoretical foundation for much of modern deep reinforcement learning.
 
-> [!info] Key Intuition
-> Q-learning always imagines taking the best possible action from the next state, regardless of what the actual policy would do. This means it converges to the optimal policy even while exploring sub-optimally.
+## Technical Depth
 
-## Update Rule
+The primary objective of Q-learning is to approximate the optimal action-value function $Q(s, a)$, which represents the maximum expected discounted return starting from state $s$ and taking action $a$. The update rule is derived from the **Bellman Optimality Equation**:
 
-$$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha\left[R_{t+1} + \gamma \max_{a'} Q(S_{t+1}, a') - Q(S_t, A_t)\right]$$
+$$Q(s_t, a_t) \leftarrow Q(s_t, a_t) + \alpha \left[ r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a') - Q(s_t, a_t) \right]$$
 
-The target $R_{t+1} + \gamma \max_{a'} Q(S_{t+1}, a')$ directly approximates $q_*(S_t, A_t)$ via the Bellman optimality equation.
+In this update, $r_{t+1} + \gamma \max_{a'} Q(s_{t+1}, a')$ is the **target**, representing a one-step estimate of the optimal future value. The presence of the $\max_{a'}$ operator is what makes Q-learning off-policy: the algorithm assumes that the agent will take the best possible action in the next state, even if the actual behavior policy (e.g., $\epsilon$-greedy) chooses a random exploratory action.
 
-## Off-Policy Nature
+For convergence, Q-learning requires that all state-action pairs $(s, a)$ are visited an infinite number of times and that the step size $\alpha$ satisfies the standard Robbins-Monro conditions ($\sum \alpha_t = \infty$ and $\sum \alpha_t^2 < \infty$). In practice, Q-learning is known to exhibit a **maximization bias** because it uses the maximum estimated value as a proxy for the maximum true value, which can lead to significant overestimations. This issue is often addressed in advanced implementations like **Double Q-learning**.
 
-The **behaviour policy** (e.g. ε-greedy) generates experience; the **target policy** is always greedy ($\max_{a'}$). This decoupling allows:
-- Learning from demonstrations or replay buffers
-- Learning the optimal policy while still exploring
-- The basis for DQN (experience replay + target networks)
+## Applications/Examples
 
-**Consequence**: Q-learning is optimistic — it assumes future behaviour is optimal. In the maze testbed, Q-learning may walk near water tiles because it imagines never falling in; SARSA avoids them because it accounts for ε-greedy stumbles.
+- **Gridworld and Pathfinding:** Q-learning is a standard baseline for solving environments like FrozenLake or Cliff Walking, where the agent learns to navigate a grid while avoiding hazards.
+- **Deep Q-Networks (DQN):** The principles of Q-learning were scaled to high-dimensional sensory inputs (like Atari pixels) by replacing the Q-table with a deep neural network, as demonstrated in DeepMind's breakthrough 2015 research.
+- **Supply Chain Management:** Q-learning is used to optimize order quantities and inventory levels by learning from historical demand fluctuations.
+- **Traffic Light Control:** Agents use Q-learning to dynamically adjust signal timings based on real-time vehicle flow, reducing congestion in urban environments.
 
-## Convergence
+## References
 
-Q-learning converges to $q_*$ if:
-1. All $(s,a)$ pairs are visited infinitely often
-2. Step sizes satisfy $\sum \alpha_t = \infty$, $\sum \alpha_t^2 < \infty$
-3. Rewards are bounded
-
-> [!example]- Worked Example
-> Cliff walking: Q-learning finds the optimal shortest path along the cliff edge (shorter path, but risky under ε-greedy). SARSA finds the safe longer path away from the cliff. Both eventually find $q_*$ as ε→0, but SARSA performs better online.
-
-> [!warning] Common Misconception
-> Q-learning is off-policy because the **target** uses max, not because the behaviour policy is different from the target policy. Even if you run Q-learning with a greedy behaviour policy, it is still off-policy in the theoretical sense.
-
-## Significance
-
-Q-learning is the foundation of deep RL: DQN (Deep Q-Network, DeepMind 2015) scales Q-learning to high-dimensional state spaces using a neural network to approximate $Q(s,a;\theta)$.
-
-<!-- unified:backlinks:start -->
-## Topic Backlinks
-
-- Intro
-- Deep Q Learning
-<!-- unified:backlinks:end -->
+- **Watkins, C. J., & Dayan, P. (1992).** *Q-learning*. Machine Learning, 8(3-4), 279-292. (The original paper introducing the algorithm).
+- **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 6: Temporal-Difference Learning).
+- **Mnih, V., et al. (2015).** *Human-level control through deep reinforcement learning*. Nature. (Introduces DQN).

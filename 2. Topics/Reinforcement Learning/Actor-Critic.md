@@ -1,64 +1,32 @@
 **Tags:** #concept #rl
 **Related:** [[Actor-Critic Methods]], [[Policy Gradient Methods]], [[Advantage Function]], [[Baseline in Policy Gradients]], [[Temporal Difference Learning]], [[State Value Function]]
 
-## Definition
+## Overview
+The Actor-Critic architecture is a hybrid reinforcement learning framework that combines the strengths of both value-based and policy-based methods. It splits the learning agent into two distinct components: the **Actor**, which is responsible for selecting actions by maintaining a parameterized policy, and the **Critic**, which evaluates the actions taken by the actor by estimating a value function. This separation addresses the limitations of both pure policy gradients (which often suffer from high variance) and pure value-based methods (which can be unstable when used with function approximation). By utilizing the critic's value estimate as a reinforcement signal, the actor-critic method can learn more efficiently, providing a bridge between Monte Carlo methods and Temporal Difference learning.
 
-An actor-critic method is a policy gradient algorithm in which two components are learned simultaneously:
+## Technical Depth
+The architecture operates by updating both components simultaneously using the environment's feedback. The Actor's policy $\pi_\theta(a|s)$ is typically updated using the gradient of the performance objective, while the Critic's value function $v_w(s)$ (or action-value function $q_w(s,a)$) is updated to minimize the temporal difference error.
 
-- **Actor**: the parameterised policy $\pi(a|s, \theta)$ that selects actions.
-- **Critic**: a parameterised value function $\hat{v}(s, \mathbf{w})$ that evaluates the actor's choices by computing a TD error $\delta_t$.
+A key development in modern actor-critic methods is the use of the **Advantage Function** $A(s,a) = Q(s,a) - V(s)$. The advantage function quantifies how much better an action $a$ is compared to the average action in state $s$. In the **Advantage Actor-Critic (A2C/A3C)** variant, the TD error $\delta_t = R_{t+1} + \gamma V_w(S_{t+1}) - V_w(S_t)$ serves as an unbiased estimate of the advantage.
 
-The critic's TD error serves as the reinforcement signal for the actor, replacing the high-variance Monte Carlo return used in REINFORCE.
+The update rules for a one-step actor-critic are:
+1.  **Critic Update (Value Function):**
+    $$w \leftarrow w + \alpha_w \delta_t \nabla_w V_w(S_t)$$
+    where $\delta_t = R_{t+1} + \gamma V_w(S_{t+1}) - V_w(S_t)$ is the TD error.
+2.  **Actor Update (Policy):**
+    $$\theta \leftarrow \theta + \alpha_\theta \delta_t \nabla_\theta \ln \pi_\theta(A_t|S_t)$$
 
-> [!info] Key Intuition
-> The critic "criticises" the actor's action selection using a predicted value of the next state — it does not wait until the episode ends to judge whether an action was good.
+This formulation significantly reduces variance compared to REINFORCE by replacing the full return $G_t$ with the critic's estimate, while the use of bootstrapping (through $V_w(S_{t+1})$) allows for fully online, incremental learning. More advanced versions, such as **Proximal Policy Optimization (PPO)** and **Soft Actor-Critic (SAC)**, incorporate additional constraints or objectives to ensure stable updates and efficient exploration.
 
-## Why Actor-Critic is Different from REINFORCE with Baseline
+## Applications/Examples
+Actor-critic methods are the dominant choice for complex, high-dimensional, and continuous control tasks:
+- **Robotic Control:** Algorithms like **DDPG (Deep Deterministic Policy Gradient)** and **SAC** are used to train robots for manipulation, walking, and flying, where actions are continuous torque or velocity commands.
+- **Autonomous Driving:** A3C has been used to train agents in simulated environments (like CARLA) to handle complex maneuvers by processing sensor inputs and outputting continuous steering and acceleration values.
+- **Game AI:** OpenAI's Five (for Dota 2) and DeepMind's AlphaStar (for StarCraft II) utilized massive-scale actor-critic architectures (variants of PPO and A3C) to achieve professional-level play.
+- **Resource Management:** Actor-critic methods help in optimizing data center cooling and network traffic routing by evaluating the long-term impact of allocation decisions.
 
-REINFORCE with baseline also learns a state-value function alongside the policy, but uses it only as a baseline for the Monte Carlo return $G_t$. The value function is **not** used for bootstrapping.
-
-In actor-critic methods, the state-value function is applied to the *second* state of the transition ($S_{t+1}$), forming the one-step return:
-
-$$G_{t:t+1} = R_{t+1} + \gamma\hat{v}(S_{t+1}, \mathbf{w})$$
-
-This is bootstrapping: the value of the next state is used to estimate the value of the current action. This introduces bias but substantially reduces variance.
-
-## One-Step Actor-Critic Update
-
-$$\delta_t = R_{t+1} + \gamma\hat{v}(S_{t+1}, \mathbf{w}) - \hat{v}(S_t, \mathbf{w})$$
-
-**Critic update** (semi-gradient TD(0)):
-$$\mathbf{w} \leftarrow \mathbf{w} + \alpha^\mathbf{w}\,\delta_t\,\nabla\hat{v}(S_t, \mathbf{w})$$
-
-**Actor update:**
-$$\boldsymbol{\theta} \leftarrow \boldsymbol{\theta} + \alpha^\theta\,I\,\delta_t\,\nabla\ln\pi(A_t|S_t, \boldsymbol{\theta})$$
-
-where $I = \gamma^t$ is a discount factor that de-emphasises later time steps in the episode ($I \leftarrow \gamma I$ each step).
-
-This is a **fully online, incremental** algorithm: states, actions, and rewards are processed as they occur and never revisited.
-
-## Baseline Summary (Common Forms)
-
-| Critic Signal | Algorithm |
-|---|---|
-| $G_t$ (full return) | REINFORCE |
-| $Q^w(s,a)$ | Q Actor-Critic |
-| $A^w(s,a) = Q^w(s,a) - V^w(s)$ | Advantage Actor-Critic |
-| $\delta_t$ (TD error) | TD Actor-Critic |
-
-> [!example]- Q Actor-Critic Algorithm
-> Initialize $s, \theta, w$; sample $a \sim \pi_\theta(a|s)$. For each step: sample $r \sim R(s,a)$, $s' \sim P(s'|s,a)$, $a' \sim \pi_\theta(a'|s')$. Update actor: $\theta \leftarrow \theta + \alpha_\theta Q_w(s,a)\nabla_\theta\ln\pi_\theta(a|s)$. Compute TD error: $\delta = r + \gamma Q_w(s',a') - Q_w(s,a)$. Update critic: $w \leftarrow w + \alpha_w \delta \nabla_w Q_w(s,a)$. Advance: $a \leftarrow a'$, $s \leftarrow s'$.
-
-> [!warning] Common Misconception
-> The bias in the actor-critic gradient estimate is not due to bootstrapping *per se* — even if the critic were learned by a Monte Carlo method, the actor would still be biased because the function approximation is imperfect. Bootstrapping is used because it reduces variance, not because it removes bias.
-
-## Significance
-
-Actor-critic methods are the foundation of the modern deep RL landscape: A2C, A3C, PPO, TRPO, SAC, and DDPG are all actor-critic variants. Their key advantage is fully online learning compatible with both episodic and continuing problems, with a flexible bias–variance trade-off controlled by the bootstrapping depth.
-
-<!-- unified:backlinks:start -->
-## Topic Backlinks
-
-- Deep Machine Learning Models
-- Intro
-<!-- unified:backlinks:end -->
+## References
+- **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 13).
+- **Mnih, V., et al. (2016).** *Asynchronous methods for deep reinforcement learning*. ICML. (Foundational paper for A3C).
+- **Konda, V. R., & Tsitsiklis, J. N. (2000).** *Actor-critic algorithms*. Advances in Neural Information Processing Systems (NIPS).
+- **Haarnoja, T., et al. (2018).** *Soft actor-critic: Off-policy maximum entropy deep reinforcement learning with a stochastic actor*. ICML. (SAC foundation).

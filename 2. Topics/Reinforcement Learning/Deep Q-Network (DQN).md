@@ -1,46 +1,27 @@
 **Tags:** #concept #rl
 **Related:** [[Approximation Methods]], [[Deep Q-Learning]], [[Value Function Approximation]], [[Deadly Triad]], [[Experience Replay]], [[Target Network]], [[Semi-Gradient TD]]
 
-## Definition
+## Overview
+The Deep Q-Network (DQN) is a landmark Reinforcement Learning algorithm that combines Q-learning with deep convolutional neural networks to solve complex tasks directly from high-dimensional sensory input. Introduced by researchers at DeepMind in 2013-2015, DQN was the first algorithm to achieve human-level performance across a wide variety of Atari 2600 games using the same architecture and hyperparameters. Before DQN, combining reinforcement learning with deep neural networks was notoriously unstable. DQN overcome these challenges through two primary stabilization techniques: **Experience Replay** and **Target Networks**, effectively bridging the gap between classical value-based RL and modern deep learning.
 
-The Deep Q-Network (DQN) is a reinforcement learning algorithm that combines Q-learning with a deep neural network function approximator and two stabilisation mechanisms — experience replay and target networks — to make value-based deep RL stable and practical.
+## Technical Depth
+The core objective of DQN is to approximate the optimal action-value function $q_*(s,a)$ using a neural network $Q(s, a; \theta)$, where $\theta$ represents the network weights. The network is trained by minimizing a sequence of loss functions $\mathcal{L}_i(\theta_i)$ that represent the Mean Squared Bellman Error:
+$$\mathcal{L}_i(\theta_i) = \mathbb{E}_{(s,a,r,s') \sim \mathcal{D}} \left[ \left( r + \gamma \max_{a'} Q(s', a'; \theta_i^-) - Q(s, a; \theta_i) \right)^2 \right]$$
+The two critical innovations that enable stable training are:
+1.  **Experience Replay:** Instead of updating the network with the most recent transition, DQN stores transitions $(s, a, r, s')$ in a replay buffer $\mathcal{D}$. Training is performed by sampling random mini-batches from this buffer. This breaks the temporal correlation between consecutive samples and allows the model to "reuse" past experiences, leading to more stable and efficient learning.
+2.  **Target Networks:** To prevent the training target from "moving" as the network parameters are updated (which leads to divergence), DQN maintains a separate **Target Network** with parameters $\theta^-$. This network is used only to calculate the Bellman target. Its parameters are kept frozen for a fixed number of steps and then periodically synchronized with the main network weights $\theta$.
 
-> [!info] Key Intuition
-> DQN is what you get when you apply semi-gradient Q-learning with a neural network instead of a table: it works well enough to achieve superhuman Atari performance, but it operates squarely inside the deadly triad and requires deliberate engineering to avoid divergence.
+DQN typically uses an $\varepsilon$-greedy policy for exploration, where the agent chooses a random action with probability $\varepsilon$ and the greedy action ($\arg\max_a Q(s,a)$) with probability $1-\varepsilon$. In the context of the **Deadly Triad** (function approximation, bootstrapping, and off-policy learning), DQN manages instability through these engineering choices rather than theoretical convergence guarantees.
 
-## Architecture and Training
+## Applications/Examples
+DQN's success opened the door for many practical applications of Deep RL:
+- **Atari Game Playing:** The original and most famous application, where DQN learned to play games like Breakout and Space Invaders directly from raw pixel data.
+- **Autonomous Navigation:** DQN-based agents have been trained to navigate mobile robots through obstacle-filled environments using only camera or LIDAR inputs.
+- **Dynamic Resource Allocation:** In telecommunications, DQN is used to optimize the allocation of bandwidth and power in cellular networks to maximize throughput while minimizing latency.
+- **Supply Chain Management:** Companies use DQN variants to optimize inventory levels and shipping routes in real-time based on fluctuating demand and transportation costs.
 
-The Q-network $Q(s, a; \theta)$ takes a state as input and outputs Q-values for all actions simultaneously. Training minimises the mean squared Bellman error:
-
-$$\mathcal{L}(\theta) = \mathbb{E}_{(s,a,r,s') \sim \mathcal{D}}\left[\left(r + \gamma \max_{a'} Q(s', a'; \theta^-) - Q(s, a; \theta)\right)^2\right]$$
-
-where:
-- $\mathcal{D}$ is the **replay buffer** (see [[Experience Replay]])
-- $\theta^-$ are the **frozen target network** weights (see [[Target Network]])
-
-## Key Innovations
-
-| Innovation | Problem It Solves |
-|-----------|-------------------|
-| [[Experience Replay]] | Breaks temporal correlations between consecutive transitions; enables data reuse |
-| [[Target Network]] | Stabilises the regression target; prevents the "chasing its own tail" divergence |
-
-Together these two innovations make DQN the first algorithm to learn directly from high-dimensional pixel inputs across many tasks.
-
-## Position in the RL Hierarchy
-
-DQN is the answer when:
-- State space is too large for a table (→ use VFA)
-- No good hand-crafted features are available (→ use deep network, not linear VFA)
-
-The progression: MDP → DP → MC/TD → Q-Learning/SARSA → VFA → DQN.
-
-> [!example]- Atari Breakout
-> State: 84×84 grayscale pixel stack of 4 frames. Network: convolutional neural network. Output: Q-value per discrete joystick action. The original DQN paper (Mnih et al., 2015) achieved superhuman performance on 49 Atari games from raw pixels using a single architecture and hyperparameter set.
-
-> [!warning] Common Misconception
-> DQN does not solve the deadly triad — it operates inside it. The target network and replay buffer *reduce* instability empirically but do not provide the theoretical convergence guarantees that on-policy linear methods have. DQN can and does diverge on some tasks.
-
-## Significance
-
-DQN launched the era of deep RL by demonstrating that neural network Q-learning, with the right stabilisation tricks, can solve complex tasks end-to-end from raw observations. It established experience replay and target networks as standard components of value-based deep RL.
+## References
+- **Mnih, V., et al. (2015).** *Human-level control through deep reinforcement learning*. Nature, 518(7540), 529-533. (The definitive journal paper).
+- **Mnih, V., et al. (2013).** *Playing Atari with Deep Reinforcement Learning*. arXiv:1312.5602. (The original workshop paper).
+- **Van Hasselt, H., Guez, A., & Silver, D. (2016).** *Deep reinforcement learning with double Q-learning*. AAAI. (Introduction of Double DQN to fix overestimation bias).
+- **Wang, Z., et al. (2016).** *Dueling network architectures for deep reinforcement learning*. ICML. (Dueling DQN variant).

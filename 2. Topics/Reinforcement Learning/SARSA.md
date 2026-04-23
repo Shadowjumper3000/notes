@@ -1,39 +1,24 @@
 **Tags:** #concept #rl
 **Related:** [[Temporal Difference Learning]], [[Q-Learning]], [[Expected SARSA]], [[RL Policy]]
 
-## Definition
+## Overview
+SARSA (State-Action-Reward-State-Action) is an on-policy temporal difference (TD) control algorithm used in reinforcement learning. As an on-policy method, SARSA learns the action-value function $q_\pi(s,a)$ based on the actions actually taken by the agent according to its current (often exploratory) policy $\pi$. This distinguishes it from off-policy methods like Q-learning, which learn the optimal value function $q_*(s,a)$ regardless of the agent's behavior. Because SARSA incorporates the cost of exploration into its value estimates, it is often more conservative and safer than Q-learning during the learning process, making it particularly valuable in real-world scenarios where accidental negative rewards carry a significant cost.
 
-SARSA (State-Action-Reward-State-Action) is an **on-policy** TD control algorithm that learns the action-value function $Q(s,a) \approx q_\pi(s,a)$ for the policy being followed, including its exploratory actions.
+## Technical Depth
+The name SARSA describes the sequence of events that trigger an update: the agent starts in state $S_t$, takes action $A_t$, receives reward $R_{t+1}$, transitions to state $S_{t+1}$, and then selects the *next* action $A_{t+1}$ using its current policy. The update rule for SARSA is:
+$$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha [R_{t+1} + \gamma Q(S_{t+1}, A_{t+1}) - Q(S_t, A_t)]$$
+where $\alpha$ is the learning rate and $\gamma$ is the discount factor.
 
-> [!info] Key Intuition
-> SARSA learns the value of the policy it actually executes — including its exploration steps. This makes it conservative: if the current ε-greedy policy sometimes walks off a cliff, SARSA learns that the cliff-edge states are dangerous.
+In SARSA, the target for the update is $R_{t+1} + \gamma Q(S_{t+1}, A_{t+1})$, which depends on the actual action $A_{t+1}$ chosen by the policy. If the agent is using an $\varepsilon$-greedy policy, the value of $Q(S_t, A_t)$ will reflect the fact that the agent might take a suboptimal random action in the next step. This property is why SARSA is considered "on-policy." For example, in a "Cliff Walking" task, SARSA will learn to stay far away from the cliff edge because it accounts for the probability of accidentally falling off due to $\varepsilon$-greedy exploration. In contrast, Q-learning would learn the path right along the edge, assuming it will always take the optimal action in the future. SARSA converges to the optimal policy $\pi_*$ and optimal value function $q_*$ as long as all state-action pairs are visited infinitely often and the policy becomes greedy in the limit (GLIE).
 
-## Update Rule
+## Applications/Examples
+SARSA is preferred in applications where safety and online performance are critical:
+- **Autonomous Driving:** SARSA is used to train lane-keeping and collision-avoidance systems where exploratory "mistakes" (like abrupt steering) must be accounted for in the value function to ensure the agent learns a robust and safe strategy.
+- **Industrial Control:** In chemical plants or power grids, SARSA helps optimize operations by learning values that account for the potential instability caused by exploratory adjustments to system parameters.
+- **Personalized Recommendations:** Online platforms use SARSA to learn user preferences while exploring new items, ensuring that the "cost" of showing a potentially irrelevant item is factored into the long-term engagement model.
+- **Robotics:** SARSA is used in robot gait learning where falling over is costly; the agent learns a stable walk that is robust to the stochasticity inherent in its own motor babbling.
 
-After each step $(S_t, A_t, R_{t+1}, S_{t+1}, A_{t+1})$:
-
-$$Q(S_t, A_t) \leftarrow Q(S_t, A_t) + \alpha\left[R_{t+1} + \gamma\, Q(S_{t+1}, A_{t+1}) - Q(S_t, A_t)\right]$$
-
-The name SARSA comes from the five elements of the transition tuple used in the update.
-
-## On-Policy Nature
-
-$A_{t+1}$ is sampled from the current policy $\pi$ (e.g. ε-greedy). The target $R_{t+1} + \gamma Q(S_{t+1}, A_{t+1})$ reflects what actually happens under $\pi$, including exploratory moves.
-
-**Consequence**: In the RL maze testbed, SARSA learns to avoid water tiles because it accounts for the cost of accidentally stepping into water under the exploratory policy.
-
-## Convergence
-
-SARSA converges to $q_*$ if:
-1. The policy converges to greedy in the limit (e.g. GLIE — Greedy in the Limit with Infinite Exploration)
-2. Step sizes satisfy Robbins-Monro conditions
-
-> [!example]- Worked Example
-> Windy gridworld: agent navigates a grid with per-column wind pushing it upward. SARSA with ε=0.1 learns to approach the goal diagonally against the wind, converging faster than random exploration because it evaluates paths under its actual navigating policy.
-
-> [!warning] Common Misconception
-> SARSA does not learn $q_*$ — it learns $q_\pi$ for the current (ε-greedy) policy. To obtain $q_*$, you need to reduce ε → 0 over time, or use Q-learning.
-
-## Significance
-
-SARSA is the canonical on-policy TD method. Its conservative behaviour makes it preferable over Q-learning in problems where exploratory actions carry real costs (e.g. physical robots, safety-critical systems).
+## References
+- **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 6.4).
+- **Rummery, G. A., & Niranjan, M. (1994).** *On-line Q-learning using connectionist systems*. University of Cambridge, Department of Engineering. (Original introduction of SARSA).
+- **Singh, S., et al. (2000).** *Convergence Results for Single-Step On-Policy Reinforcement-Learning Algorithms*. Machine Learning, 38, 287-308.

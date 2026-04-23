@@ -11,10 +11,14 @@
             "id": "1d5ba293349b4625",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "split-diff-view",
+              "state": {
+                "aFile": "2. Topics/Natural Language Processing/Attention Mechanism.md",
+                "bFile": "2. Topics/Natural Language Processing/Attention Mechanism.md",
+                "aRef": ""
+              },
+              "icon": "diff",
+              "title": "Diff: Attention Mechanism  (Working Tree)"
             }
           }
         ]
@@ -131,6 +135,16 @@
   },
   "active": "1d5ba293349b4625",
   "lastOpenFiles": [
+    "2. Topics/Machine Learning Foundations/Backpropagation.md",
+    "2. Topics/Matrices And Linear Transformations/Singular Value Decomposition.md",
+    "2. Topics/Matrices And Linear Transformations/Eigenvalues and Eigenvectors.md",
+    "2. Topics/Matrices And Linear Transformations/Matrices and Linear Maps.md",
+    "2. Topics/Matrices And Linear Transformations/Vectors and Vector Spaces.md",
+    "1. Courses/Matrices and Linear Algebra.md",
+    "1. Courses/Statistical Learning and Prediction.md",
+    "2. Topics/Computer Vision/Image Formation.md",
+    "1. Courses/Computer Vision.md",
+    "README.md",
     "1. Courses/Computer Programming.md",
     "1. Hubs/Computer Programming.md",
     "2. Topics/Software Development/Library tradeoffs - control vs robustness.md",
@@ -147,16 +161,6 @@
     "2. Topics/Reinforcement Learning/Tile Coding.md",
     "2. Topics/Reinforcement Learning/Thompson Sampling.md",
     "2. Topics/Reinforcement Learning/Temporal Differences.md",
-    "2. Topics/Reinforcement Learning/Temporal Difference Learning.md",
-    "2. Topics/Reinforcement Learning/Temperature Parameter in SAC.md",
-    "2. Topics/Reinforcement Learning/Target Network.md",
-    "2. Topics/Reinforcement Learning/TD(λ).md",
-    "2. Topics/Reinforcement Learning/Stochastic Policy Gradient.md",
-    "2. Topics/Reinforcement Learning/State Value Function.md",
-    "2. Topics/Reinforcement Learning/State Discretization.md",
-    "2. Topics/Reinforcement Learning/Stable Baselines3.md",
-    "2. Topics/Reinforcement Learning/Soft Actor-Critic (SAC).md",
-    "2. Topics/Reinforcement Learning/Sim-to-Real Transfer.md",
     "2. Topics/Statistical Learning and Prediction",
     "2. Topics/Software Development",
     "2. Topics/Reinforcement Learning",
