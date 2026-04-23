@@ -1,0 +1,3 @@
+- [[Cosine Similarity]]
+- [[Set Similarity Coefficients]]
+- [[Normalization - magnitude vs direction]]
