@@ -50,7 +50,7 @@ RL provides the theoretical foundation for all goal-directed learning from exper
 - Machine Learning Foundations
 - Deep Machine Learning Models
 - Personality And Emotion
-- [[2. Areas/AI Reasoning/00-ai_reasoning|AI Reasoning]]
+- [[2. Topics/AI Reasoning/00-ai_reasoning|AI Reasoning]]
 - Benchmarks
 - Intro
 <!-- unified:backlinks:end -->

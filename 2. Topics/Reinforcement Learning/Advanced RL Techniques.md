@@ -1,5 +1,5 @@
 **Tags:** #hub #rl
-**Related:** [[Reinforcement Learning]], [[1. Hubs/Reinforcement Learning|Reinforcement Learning]]
+**Related:** [[Reinforcement Learning]], [[1. Courses/Reinforcement Learning|Reinforcement Learning]]
 
 ## Overview
 

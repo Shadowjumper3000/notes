@@ -33,7 +33,7 @@ The definition of "Input Size" ($n$) depends on the problem:
 <!-- unified:backlinks:start -->
 ## Topic Backlinks
 
-- [[2. Areas/AI Reasoning/00-ai_reasoning|AI Reasoning]]
+- [[2. Topics/AI Reasoning/00-ai_reasoning|AI Reasoning]]
 - Uninformed Search Algorithms
 - Computer Programming
 - Python Readme

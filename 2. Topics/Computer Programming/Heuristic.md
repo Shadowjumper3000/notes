@@ -65,7 +65,7 @@ A useful heuristic is:
 <!-- unified:backlinks:start -->
 ## Topic Backlinks
 
-- [[2. Areas/AI Reasoning/00-ai_reasoning|AI Reasoning]]
+- [[2. Topics/AI Reasoning/00-ai_reasoning|AI Reasoning]]
 - Heuristic Algorithms
 - Knowledge Representation
 <!-- unified:backlinks:end -->

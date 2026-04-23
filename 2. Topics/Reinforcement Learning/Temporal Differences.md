@@ -1,5 +1,5 @@
 **Tags:** #topic #hub #rl
-**Related:** [[1. Hubs/Reinforcement Learning|Reinforcement Learning]], [[Review - MDPs and Temporal Difference Learning]]
+**Related:** [[1. Courses/Reinforcement Learning|Reinforcement Learning]], [[Review - MDPs and Temporal Difference Learning]]
 
 ## Overview
 

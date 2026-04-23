@@ -1,0 +1,86 @@
+**Status:** #active
+---
+# Knowledge Map
+## Module 1: Image Formation & Cameras
+### Session 1: [[2. Topics/Computer Vision/Image Formation|Image Formation]]
+- [[2. Topics/Computer Vision/Geometric Image Formation|Geometric Image Formation]]
+- [[2. Topics/Computer Vision/Photometric Image Formation|Photometric Image Formation]]
+- [[2. Topics/Computer Vision/Pinhole Camera Model|Pinhole Camera Model]]
+- [[2. Topics/Computer Vision/Perspective Projection|Perspective Projection]]
+- [[2. Topics/Computer Vision/Lenses vs Pinhole Cameras|Lenses vs Pinhole Cameras]]
+### Session 2: [[2. Topics/Computer Vision/Linear Camera Model & Calibration|Linear Camera Model & Calibration]]
+- [[2. Topics/Computer Vision/Linear Camera Model|Linear Camera Model]]
+- [[2. Topics/Computer Vision/Homogeneous Coordinates|Homogeneous Coordinates]]
+- [[2. Topics/Computer Vision/Intrinsic & Extrinsic Parameters|Intrinsic & Extrinsic Parameters]]
+- [[2. Topics/Computer Vision/Camera Calibration|Camera Calibration]]
+- [[2. Topics/Computer Vision/Calibrated Stereo Vision|Calibrated Stereo Vision]]
+### Session 3: [[2. Topics/Computer Vision/Camera Calibration & Stereo Vision|Camera Calibration & Stereo Vision]]
+- [[2. Topics/Computer Vision/Camera Calibration Matrix|Camera Calibration Matrix]]
+- [[2. Topics/Computer Vision/Rotation Matrices|Rotation Matrices]]
+- [[2. Topics/Computer Vision/Camera Calibration|Camera Calibration]]
+- [[2. Topics/Computer Vision/Calibrated Stereo Vision|Calibrated Stereo Vision]]
+
+## Module 2: Image Sensing
+### Session 4: [[2. Topics/Computer Vision/Image Sensing|Image Sensing]]
+- [[2. Topics/Computer Vision/Illumination Types|Illumination Types]]
+- [[2. Topics/Computer Vision/Reflection Mechanisms|Reflection Mechanisms]]
+- [[2. Topics/Computer Vision/Image Sensors|Image Sensors]]
+- [[2. Topics/Computer Vision/Pixel Size & Resolution|Pixel Size & Resolution]]
+- [[2. Topics/Computer Vision/Aliasing|Aliasing]]
+- [[2. Topics/Computer Vision/Sensor Noise|Sensor Noise]]
+- [[2. Topics/Computer Vision/Dynamic Range|Dynamic Range]]
+- [[2. Topics/Computer Vision/High Dynamic Range Imaging|High Dynamic Range Imaging]]
+- [[2. Topics/Computer Vision/Colour Sensing|Colour Sensing]]
+- [[2. Topics/Computer Vision/Colour Spaces|Colour Spaces]]
+- [[2. Topics/Computer Vision/Demosaicing|Demosaicing]]
+- [[2. Topics/Computer Vision/Image Interpolation|Image Interpolation]]
+
+## Module 3: Image Transformations
+### Session 5: [[2. Topics/Computer Vision/Geometric Transformations|Geometric Transformations]]
+- [[2. Topics/Computer Vision/Image Warping|Image Warping]]
+- [[2. Topics/Computer Vision/Euclidean Transformation|Euclidean Transformation]]
+- [[2. Topics/Computer Vision/Affine Transformation|Affine Transformation]]
+- [[2. Topics/Computer Vision/Homography|Homography]]
+- [[2. Topics/Computer Vision/RANSAC|RANSAC]]
+- [[2. Topics/Computer Vision/Panorama Stitching|Panorama Stitching]]
+### Session 6: [[2. Topics/Computer Vision/Intensity Transformations|Intensity Transformations]]
+- [[2. Topics/Computer Vision/Image Thresholding|Image Thresholding]]
+- [[2. Topics/Computer Vision/Otsu's Method|Otsu's Method]]
+- [[2. Topics/Computer Vision/Gamma Correction|Gamma Correction]]
+- [[2. Topics/Computer Vision/Histogram Equalization|Histogram Equalization]]
+- [[2. Topics/Computer Vision/CLAHE|CLAHE]]
+- [[2. Topics/Computer Vision/Adaptive Thresholding|Adaptive Thresholding]]
+
+## Module 4: Local Filtering
+### Session 7: [[2. Topics/Computer Vision/Convolution & Local Filters|Convolution & Local Filters]]
+- [[2. Topics/Computer Vision/Linear Shift Invariant System|Linear Shift Invariant System]]
+- [[2. Topics/Computer Vision/Convolution|Convolution]]
+- [[2. Topics/Computer Vision/Cross-Correlation|Cross-Correlation]]
+- [[2. Topics/Computer Vision/Point Spread Function|Point Spread Function]]
+- [[2. Topics/Computer Vision/Gaussian Filter|Gaussian Filter]]
+- [[2. Topics/Computer Vision/Template Matching|Template Matching]]
+- [[2. Topics/Computer Vision/Image Pyramid|Image Pyramid]]
+### Session 8: [[2. Topics/Computer Vision/Nonlinear Filters & Morphological Operations|Nonlinear Filters & Morphological Operations]]
+- [[2. Topics/Computer Vision/Median Filter|Median Filter]]
+- [[2. Topics/Computer Vision/Bilateral Filter|Bilateral Filter]]
+- [[2. Topics/Computer Vision/Morphological Operations|Morphological Operations]]
+
+## Module 5: Frequency Domain
+### Session 9: [[2. Topics/Computer Vision/Fourier Transform|Fourier Transform]]
+- [[2. Topics/Computer Vision/Fourier Series|Fourier Series]]
+- [[2. Topics/Computer Vision/Fourier Transform (Concept)|Fourier Transform (Concept)]]
+- [[2. Topics/Computer Vision/Discrete Fourier Transform|Discrete Fourier Transform]]
+- [[2. Topics/Computer Vision/Fast Fourier Transform|Fast Fourier Transform]]
+- [[2. Topics/Computer Vision/2D Fourier Transform|2D Fourier Transform]]
+### Session 10: [[2. Topics/Computer Vision/Fourier Transform Applications|Fourier Transform Applications]]
+- [[2. Topics/Computer Vision/Frequency Domain Filtering|Frequency Domain Filtering]]
+- [[2. Topics/Computer Vision/Convolution Theorem|Convolution Theorem]]
+- [[2. Topics/Computer Vision/Nyquist Theorem|Nyquist Theorem]]
+- [[2. Topics/Computer Vision/Deconvolution|Deconvolution]]
+
+## Module 6: Modern Computer Vision
+### Session 11: Deep Learning in Vision
+- [[2. Topics/Computer Vision/Object Detection|Object Detection]]
+- [[2. Topics/Computer Vision/Image Segmentation|Image Segmentation]]
+- [[2. Topics/Computer Vision/Vision Transformers (ViT)|Vision Transformers (ViT)]]
+
