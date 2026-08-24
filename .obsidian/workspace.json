@@ -4,24 +4,49 @@
     "type": "split",
     "children": [
       {
-        "id": "602da31706618127",
+        "id": "9bf3ae58abf642f7",
         "type": "tabs",
         "children": [
           {
-            "id": "1d5ba293349b4625",
+            "id": "2d0e5a0752cdf309",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": "2. Topics/Natural Language Processing/Attention Mechanism.md",
-                "bFile": "2. Topics/Natural Language Processing/Attention Mechanism.md",
-                "aRef": ""
+                "file": "2. Topics/Software Development/Library tradeoffs - control vs robustness.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: Attention Mechanism  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "Library tradeoffs - control vs robustness"
+            }
+          },
+          {
+            "id": "34c0f05242c505e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1. Courses/Natural Language Processing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Natural Language Processing"
+            }
+          },
+          {
+            "id": "45de7dd50d575a4b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             }
           },
           {
-            "id": "171959ea15fd761c",
+            "id": "e0f22b1b225e7046",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +90,7 @@
             }
           },
           {
-            "id": "9b4e325a6eb32cb8",
+            "id": "21fcee429e6d3b69",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -85,25 +110,16 @@
     "type": "split",
     "children": [
       {
-        "id": "b793e5f95cb87d7a",
+        "id": "5330d96efb64e787",
         "type": "tabs",
         "children": [
           {
-            "id": "3072bab9d9d0462d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "d749c330d35a3040",
+            "id": "89237123a2ba4337",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2. Topics/Software Development/Library tradeoffs - control vs robustness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,14 +129,70 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Library tradeoffs - control vs robustness"
+            }
+          },
+          {
+            "id": "f4c93376a7fda2ac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "2. Topics/Software Development/Library tradeoffs - control vs robustness.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Library tradeoffs - control vs robustness"
+            }
+          },
+          {
+            "id": "604e60fdfc0973bd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "2579683012871c80",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "2. Topics/Software Development/Library tradeoffs - control vs robustness.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Library tradeoffs - control vs robustness"
+            }
+          },
+          {
+            "id": "3f28bddd1baacacf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -133,53 +205,52 @@
       "command-palette:Open command palette": true
     }
   },
-  "active": "1d5ba293349b4625",
+  "active": "45de7dd50d575a4b",
   "lastOpenFiles": [
-    "2. Topics/Machine Learning Foundations/Backpropagation.md",
-    "2. Topics/Matrices And Linear Transformations/Singular Value Decomposition.md",
-    "2. Topics/Matrices And Linear Transformations/Eigenvalues and Eigenvectors.md",
-    "2. Topics/Matrices And Linear Transformations/Matrices and Linear Maps.md",
-    "2. Topics/Matrices And Linear Transformations/Vectors and Vector Spaces.md",
+    "1. Courses/Machine Learning.md",
     "1. Courses/Matrices and Linear Algebra.md",
-    "1. Courses/Statistical Learning and Prediction.md",
-    "2. Topics/Computer Vision/Image Formation.md",
+    "1. Courses/Natural Language Processing.md",
+    "1. Courses/Reinforcement Learning.md",
+    "3. Images/selection-sort.gif",
+    "2. Topics/Matrices And Linear Transformations/sedPBZJ67",
+    "2. Topics/Machine Learning Foundations/sedZpbPBI",
+    "2. Topics/Machine Learning Foundations/sedH2Gn2U",
+    "2. Topics/Machine Learning Foundations/sedfWlUkQ",
+    "3. Images/mlp-hidden-layers.png",
+    "3. Images/feedforward-neural-network.png",
+    "3. Images/multilayer-perceptron.png",
+    "3. Images/insertion-sort.gif",
+    "2. Topics/Natural Language Processing/sedHsTiyf",
+    "3. Images/perceptron-labeled.png",
+    "3. Images/mlp-architecture.png",
+    "sedtogWSe",
+    "3. Images/bubble-sort.gif",
+    "sedxTHec1",
+    "2. Topics/Reinforcement Learning/sed7jaG8a",
+    "2. Topics/Reinforcement Learning/sedkVynJX",
+    "2. Topics/Computer Vision/sedw9DqYF",
+    "3. Images/activation-functions.avif",
+    "3. Images/bag-of-words.png",
     "1. Courses/Computer Vision.md",
-    "README.md",
+    "2. Topics/Computer Vision/Object Detection.md",
+    "2. Topics/Computer Vision/Image Segmentation.md",
+    "2. Topics/Computer Vision/Fourier Series.md",
+    "temp.md",
+    "2. Topics/Natural Language Processing/Abstract Meaning Representation - AMR.md",
+    "2. Topics/Natural Language Processing/Transformers.md",
+    "1. Courses/Statistical Learning and Prediction.md",
     "1. Courses/Computer Programming.md",
-    "1. Hubs/Computer Programming.md",
     "2. Topics/Software Development/Library tradeoffs - control vs robustness.md",
-    "2. Topics/Reinforcement Learning/k-Armed Bandit Problem.md",
-    "2. Topics/Reinforcement Learning/World Models.md",
-    "2. Topics/Reinforcement Learning/Vectorized Environments.md",
-    "2. Topics/Reinforcement Learning/Variance Reduction in Policy Gradients.md",
-    "2. Topics/Reinforcement Learning/Value Iteration.md",
-    "2. Topics/Reinforcement Learning/Value Function Approximation.md",
-    "2. Topics/Reinforcement Learning/Upper Confidence Bound Action Selection.md",
-    "2. Topics/Reinforcement Learning/Universal Value Function Approximators.md",
-    "2. Topics/Reinforcement Learning/Trust Region Policy Optimization.md",
-    "2. Topics/Reinforcement Learning/Trajectory Sampling.md",
-    "2. Topics/Reinforcement Learning/Tile Coding.md",
-    "2. Topics/Reinforcement Learning/Thompson Sampling.md",
-    "2. Topics/Reinforcement Learning/Temporal Differences.md",
-    "2. Topics/Statistical Learning and Prediction",
-    "2. Topics/Software Development",
-    "2. Topics/Reinforcement Learning",
-    "2. Topics/Probability For Computing",
-    "2. Topics/Personality And Emotions",
-    "2. Topics/Natural Language Processing",
-    "2. Topics/Matrices And Linear Transformations",
-    "2. Topics/Machine Learning Foundations",
-    "2. Topics/High Performance Computing",
-    "2. Topics/Computer Vision",
-    "3. Images/Pasted image 20260114132132.png",
-    "3. Images/Pasted image 20260116111433.png",
-    "3. Images/Pasted image 20260119113812.png",
-    "3. Images/Pasted image 20260119111657.png",
-    "3. Images/presentation diagram.png",
-    "3. Images/Pasted image 20260119120429.png",
-    "2. Areas/Reinforcement Learning/Pasted image 20260114132132.png",
-    "2. Areas/Pasted image 20260116111433.png",
-    "2. Areas/Computer Vision/Pasted image 20260119113812.png",
-    "2. Areas/Computer Vision/Pasted image 20260119111657.png"
+    "2. Topics/Machine Learning Foundations/Statistical Learning Resources.md",
+    "2. Topics/Machine Learning Foundations/Improving MLPs.md",
+    "2. Topics/Machine Learning Foundations/Losses & Regularization.md",
+    "2. Topics/Machine Learning Foundations/Bias–Variance Tradeoff.md",
+    "2. Topics/Machine Learning Foundations/Boosting.md",
+    "2. Topics/Machine Learning Foundations/Bagging and Random Forests.md",
+    "2. Topics/Machine Learning Foundations/Decision Trees.md",
+    "2. Topics/Machine Learning Foundations/MDS & Isomap.md",
+    "2. Topics/Machine Learning Foundations/Principal Component Analysis (PCA).md",
+    "2. Topics/Machine Learning Foundations/Clustering.md",
+    "2. Topics/Reinforcement Learning/Actor-Critic Methods.md"
   ]
 }
