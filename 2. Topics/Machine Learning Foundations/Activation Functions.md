@@ -31,7 +31,7 @@ Crucially, non-linear activation functions introduce **non-linearity** to the ne
 | **Softmax** | $(0, 1)$, $\sum = 1$ | Multi-class Output layer |
 
 ## Diagram
-!3. Images/DeqKjeD6qNmhUNiDfoPBb3xfafw.avif
+!3. Images/activation-functions.avif
 
 <!-- unified:backlinks:start -->
 ## Topic Backlinks
@@ -39,3 +39,4 @@ Crucially, non-linear activation functions introduce **non-linearity** to the ne
 - Machine Learning Foundations
 - Deep Machine Learning Models
 <!-- unified:backlinks:end -->
+

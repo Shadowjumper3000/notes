@@ -18,3 +18,4 @@ Alternative: assign different exposures **per pixel** (e.g., by overlaying a spa
 
 ## Significance
 HDR imaging is critical in scenes with both bright sunlight and deep shadows (e.g., outdoor robotics, surveillance). It is standard in modern smartphones via computational photography.
+

@@ -26,7 +26,7 @@ Listed from fastest to slowest.
 | $O(n^2)$      | Quadratic    | Nested Loops / [[Bubble Sort]]      |
 | $O(2^n)$      | Exponential  | Recursive Fibonacci                 |
 | $O(n!)$       | Factorial    | Traveling Salesman (Brute Force)    |
-!3. Images/SCR-20260110-bxmg.png
+!3. Images/big-o-notation.png
 # Calculation Rules
 
 1. **Drop Constants:** $O(2n)$ becomes $O(n)$.
@@ -40,3 +40,4 @@ Listed from fastest to slowest.
 
 - Computer Programming
 <!-- unified:backlinks:end -->
+

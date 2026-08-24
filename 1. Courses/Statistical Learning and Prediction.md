@@ -1,4 +1,4 @@
-**Status:** #active
+#active #topic 
 ---
 # Knowledge Map
 
@@ -30,3 +30,26 @@
 - [[2. Topics/Machine Learning Foundations/Learning Rate Schedules|Learning Rate Schedules]]
 - [[2. Topics/Machine Learning Foundations/Hyperparameter Tuning|Hyperparameter Tuning]]
 
+## Module 3: Transformers & Representation Learning
+- [[2. Topics/Machine Learning Foundations/Transformer Architecture|Transformer Architecture]]
+- [[2. Topics/Machine Learning Foundations/Self-Attention|Self-Attention]]
+
+---
+## Module 4: Unsupervised Learning & Dimensionality Reduction
+- [[2. Topics/Machine Learning Foundations/Clustering|Clustering]]
+- [[2. Topics/Machine Learning Foundations/Principal Component Analysis (PCA)|Principal Component Analysis (PCA)]]
+- [[2. Topics/Machine Learning Foundations/MDS & Isomap|MDS & Isomap]]
+
+## Module 5: Trees & Ensembles
+- [[2. Topics/Machine Learning Foundations/Decision Trees|Decision Trees]]
+- [[2. Topics/Machine Learning Foundations/Bagging and Random Forests|Bagging & Random Forests]]
+- [[2. Topics/Machine Learning Foundations/Boosting|Boosting (AdaBoost & Gradient Boosting)]]
+
+## Module 6: Model Evaluation, Losses & Regularization
+- [[2. Topics/Machine Learning Foundations/Overfitting|Bias–Variance Tradeoff & Overfitting]]
+- [[2. Topics/Machine Learning Foundations/Regularization|Regularization]]
+- [[2. Topics/Machine Learning Foundations/Cross-Entropy Loss|Loss Functions]]
+
+## Module 7: Neural Nets & MLPs
+- [[2. Topics/Machine Learning Foundations/Improving MLPs|Improving MLPs]]
+- [[2. Topics/Machine Learning Foundations/k-Nearest Neighbors|Nearest Neighbors (kNN)]]

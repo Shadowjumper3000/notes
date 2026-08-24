@@ -52,3 +52,4 @@ Backpropagation allowed for the training of deep networks by solving the problem
 - Personality And Emotion
 - Backpropagation
 <!-- unified:backlinks:end -->
+

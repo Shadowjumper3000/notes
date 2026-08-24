@@ -18,3 +18,4 @@ Appending a `?` to a quantifier makes it **lazy** (or non-greedy), meaning it wi
 
 ## Significance
 Understanding greedy behavior is crucial for preventing unexpected results when delimiters (like quotes, tags, or brackets) repeat or when multiple matches are possible in a single string.
+

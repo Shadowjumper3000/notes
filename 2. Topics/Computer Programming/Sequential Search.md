@@ -41,3 +41,4 @@ def sequential_search(target, collection):
 - When the dataset is small.
     
 - When using data structures that do not support random access (like [[Linked Lists]]).
+

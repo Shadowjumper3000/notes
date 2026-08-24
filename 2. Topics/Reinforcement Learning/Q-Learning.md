@@ -27,3 +27,4 @@ For convergence, Q-learning requires that all state-action pairs $(s, a)$ are vi
 - **Watkins, C. J., & Dayan, P. (1992).** *Q-learning*. Machine Learning, 8(3-4), 279-292. (The original paper introducing the algorithm).
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 6: Temporal-Difference Learning).
 - **Mnih, V., et al. (2015).** *Human-level control through deep reinforcement learning*. Nature. (Introduces DQN).
+

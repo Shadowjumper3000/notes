@@ -31,3 +31,4 @@ Skip-gram with negative sampling (SGNS) is the most commonly used variant due to
 
 > [!warning] Common Misconception
 > CBOW is not simply "worse" than Skip-gram. For large datasets and frequent vocabulary, CBOW trains faster with comparable performance. The preference for Skip-gram applies specifically to rare words and smaller datasets.
+

@@ -28,3 +28,4 @@ For large kernels ($K \gg \log N$), this is dramatically faster.
 
 ## Significance
 The Convolution Theorem is the theoretical bridge between spatial and frequency domain processing. It explains why frequency-domain filters and spatial convolution are two views of the same operation.
+

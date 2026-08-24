@@ -14,3 +14,4 @@ AMR separates meaning from phrasing: if two sentences convey the same propositio
 
 ## Cost and implication
 AMR increases semantic transparency, but requires non-trivial parsing and often relies on annotated resources or complex mapping procedures.
+

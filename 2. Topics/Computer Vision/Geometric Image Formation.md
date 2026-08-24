@@ -22,3 +22,4 @@ $$\frac{x}{f} = \frac{X}{Z} \implies x = f \cdot \frac{X}{Z}$$
 3. **Line Preservation:** Straight lines in 3D project to straight lines in 2D (except when passing through the optical center).
     
 ## [[Field of View]] (FOV)
+

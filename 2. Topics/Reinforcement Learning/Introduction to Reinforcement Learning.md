@@ -23,3 +23,4 @@ A core theoretical pillar is the **Reward Hypothesis**, which states that all go
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (The foundational text in the field).
 - **Russell, S. J., & Norvig, P. (2020).** *Artificial Intelligence: A Modern Approach*. Pearson. (Chapters on RL and MDPs).
 - **Szepesvári, C. (2010).** *Algorithms for Reinforcement Learning*. Morgan & Claypool.
+

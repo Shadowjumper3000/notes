@@ -45,3 +45,4 @@ Monte Carlo methods are effectively used in complex games and simulation-based o
 > - Why must MC methods estimate action-value functions rather than state-value functions in the model-free setting?
 > - What are the two assumptions required for MC to converge to the optimal policy, and how does each get relaxed in practice?
 > - How does the Importance Sampling ratio enable off-policy learning, and what is the difference between ordinary and weighted Importance Sampling?
+

@@ -28,3 +28,4 @@ def binary_search(arr, target):
 * **Integer Division:** Python uses `//` for floor division.
 
 * **Overflow:** Python handles arbitrarily large integers automatically, so `(low + high) // 2` is safe from overflow errors common in Java/C++.
+

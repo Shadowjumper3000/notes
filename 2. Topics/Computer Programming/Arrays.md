@@ -26,3 +26,4 @@ Because the memory is contiguous and element sizes are fixed, the computer does 
 - **Fixed Size:** In low-level languages (C, Java), arrays have a fixed size determined at creation.
     
 - **Homogeneous:** Usually store elements of the same data type.
+

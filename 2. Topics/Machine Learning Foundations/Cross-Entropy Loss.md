@@ -14,3 +14,4 @@ Where:
 - **Information Theory**: Measures the cross-entropy between the true distribution and the predicted distribution.
 
 - **Gradients**: Produces much stronger gradients for incorrect predictions compared to [[Mean Squared Error (MSE)]], preventing the training from stalling (vanishing gradients) early on.
+

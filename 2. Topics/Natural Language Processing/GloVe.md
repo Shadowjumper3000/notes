@@ -26,3 +26,4 @@ Final embeddings = $\mathbf{w}_i + \tilde{\mathbf{w}}_j$ (sum of word and contex
 
 > [!warning] Common Misconception
 > GloVe and Word2Vec embeddings are not interchangeable drop-ins. GloVe trains on global co-occurrences and is typically better at capturing semantic relatedness; Word2Vec's local context window can capture syntactic patterns more sharply.
+

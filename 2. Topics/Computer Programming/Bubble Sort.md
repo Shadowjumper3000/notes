@@ -17,7 +17,7 @@ A simple sorting algorithm that repeatedly steps through the list, compares adja
 5. Repeat the process for the remaining elements ($n-1$, $n-2$, etc.) until no swaps are needed.
 
 Animation:
-!3. Images/bubble-sort-0-dc86a88ab889d19e8ffad6cba3eb6e2f.gif    
+!3. Images/bubble-sort.gif    
 # Complexity Analysis
 
 - **Worst Case:** $O(n^2)$ (Reverse order).
@@ -31,3 +31,4 @@ Animation:
 
 - Computer Programming
 <!-- unified:backlinks:end -->
+

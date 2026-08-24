@@ -36,3 +36,4 @@ The update scales this direction by the return $G_t$: high-return actions get re
 ## Significance
 
 The stochastic policy gradient framework generalises Q-learning to parameterised policies, works naturally in continuous action spaces, and provides the foundation for all modern deep RL policy optimisation methods.
+

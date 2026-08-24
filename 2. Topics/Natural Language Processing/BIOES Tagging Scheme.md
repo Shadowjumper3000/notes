@@ -29,3 +29,4 @@ With $k$ entity types → $4k + 1$ labels (vs $2k + 1$ for BIO).
 ## Significance
 
 BIOES typically yields modestly higher NER F1 than BIO because the richer label set provides more explicit boundary supervision, particularly benefiting CRF-based models.
+

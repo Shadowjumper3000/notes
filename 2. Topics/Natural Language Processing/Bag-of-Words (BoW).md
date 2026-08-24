@@ -17,7 +17,7 @@ Consider these two sentences:
 
 Both will be represented with vectors `[2,1,1,1]`, assuming `['The', 'kid', 'ate', 'cookie']` as our dictionary. We know that the meaning differs, but the model does not!
 
-!3. Images/Pasted image 20260128130127.png
+!3. Images/bag-of-words.png
 
 ## What BoW captures well
 - Topic-level content and term presence.
@@ -40,3 +40,4 @@ BoW is the basic vector-space representation that leads directly to:
 
 - Visual Representation And Concepts
 <!-- unified:backlinks:end -->
+

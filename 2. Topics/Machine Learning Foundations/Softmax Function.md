@@ -14,3 +14,4 @@ $$\sigma(\mathbf{z})_i = \frac{e^{z_i}}{\sum_{j=1}^K e^{z_j}}$$
 
 ## Usage
 Used almost exclusively in the **output layer** of multi-class classification networks.
+

@@ -22,3 +22,4 @@ LLMs power a wide range of modern applications, including:
 - Vaswani, A., et al. (2017). "Attention Is All You Need."
 - Brown, T., et al. (2020). "Language Models are Few-Shot Learners." (GPT-3 paper)
 - Kaplan, J., et al. (2020). "Scaling Laws for Neural Language Models."
+

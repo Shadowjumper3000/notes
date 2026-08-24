@@ -27,3 +27,4 @@ SAC has become the go-to algorithm for real-world and simulated continuous contr
 - **Haarnoja, T., et al. (2018).** *Soft Actor-Critic Algorithms and Applications*. arXiv:1812.05905. (Includes the automated temperature tuning).
 - **Ziebart, B. D. (2010).** *Modeling Purposeful Adaptive Behavior with the Principle of Maximum Entropy*. PhD Thesis. (Foundational work on MaxEnt RL).
 - **Fujimoto, S., Hoof, H., & Meger, D. (2018).** *Addressing Function Approximation Error in Actor-Critic Methods*. ICML. (The TD3 paper which introduced techniques like clipped double-Q used in SAC).
+

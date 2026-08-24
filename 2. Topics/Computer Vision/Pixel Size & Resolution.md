@@ -18,3 +18,4 @@ Anti-aliasing filters (optical low-pass filters) placed in front of the sensor p
 
 ## Significance
 Sensor resolution design is a trade-off between spatial resolution, noise, and cost. For a given optic, there is an optimal pixel size beyond which more pixels add no information.
+

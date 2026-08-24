@@ -17,7 +17,7 @@ An in-place comparison sorting algorithm that builds the final sorted array one 
 5. Repeat until the array is fully sorted.
 
 Animation
-!3. Images/insertion-sort-e8e40865ca8316a75a00ae32347acffb.gif
+!3. Images/insertion-sort.gif
 
 # Complexity Analysis
 
@@ -38,3 +38,4 @@ Animation
 
 - Computer Programming
 <!-- unified:backlinks:end -->
+

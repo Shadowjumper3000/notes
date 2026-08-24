@@ -27,3 +27,4 @@ This means brighter regions have absolutely more noise but a better signal-to-no
 
 ## Significance
 Understanding noise sources guides denoising algorithm design — e.g., median filters address salt-and-pepper noise, Gaussian filters address read noise, and long-exposure averaging reduces shot noise.
+

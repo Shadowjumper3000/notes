@@ -27,3 +27,4 @@ With $k$ entity types, BIO generates $2k + 1$ labels.
 
 > [!warning] Common Misconception
 > `I-X` after `O` is an illegal transition in BIO — it implies a continuation without a beginning. Models without explicit transition constraints (e.g., vanilla softmax) can produce this, corrupting entity span extraction. A CRF layer prevents it.
+

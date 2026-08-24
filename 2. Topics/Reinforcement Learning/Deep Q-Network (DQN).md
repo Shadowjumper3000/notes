@@ -24,4 +24,4 @@ DQN's success opened the door for many practical applications of Deep RL:
 - **Mnih, V., et al. (2015).** *Human-level control through deep reinforcement learning*. Nature, 518(7540), 529-533. (The definitive journal paper).
 - **Mnih, V., et al. (2013).** *Playing Atari with Deep Reinforcement Learning*. arXiv:1312.5602. (The original workshop paper).
 - **Van Hasselt, H., Guez, A., & Silver, D. (2016).** *Deep reinforcement learning with double Q-learning*. AAAI. (Introduction of Double DQN to fix overestimation bias).
-- **Wang, Z., et al. (2016).** *Dueling network architectures for deep reinforcement learning*. ICML. (Dueling DQN variant).
+

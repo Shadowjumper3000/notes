@@ -45,3 +45,4 @@ PPO replaces the hard KL constraint with a soft **clip** on the probability rati
 $$J^{\text{CLIP}}(\theta) = \mathbb{E}\!\left[\min\!\left(r(\theta)\hat{A}_{\theta_\text{old}}(s,a),\; \text{clip}(r(\theta), 1-\varepsilon, 1+\varepsilon)\hat{A}_{\theta_\text{old}}(s,a)\right)\right]$$
 
 The clip function truncates $r(\theta)$ to $[1-\varepsilon, 1+\varepsilon]$ (original paper: $\varepsilon = 0.2$). The objective takes the minimum of the unclipped and clipped value, making it a pessimistic bound: the policy can only benefit from the ratio moving towards 1, not away from it. This gives TRPO-like stability using only first-order optimization.
+

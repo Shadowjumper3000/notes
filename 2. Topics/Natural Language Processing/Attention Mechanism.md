@@ -25,3 +25,4 @@ The attention mechanism is the foundational component of:
 - Bahdanau, D., et al. (2014). "Neural Machine Translation by Jointly Learning to Align and Translate." (The original Attention paper)
 - Vaswani, A., et al. (2017). "Attention Is All You Need." (Transformers paper)
 - Jurafsky, D., & Martin, J. H. *Speech and Language Processing* (3rd ed. draft).
+

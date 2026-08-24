@@ -34,3 +34,4 @@ A colour space is a systematic way to represent colours as tuples of numbers, co
 
 ## Significance
 Choosing the right colour space for a task (e.g., HSV for colour segmentation, LAB for perceptual uniformity) can greatly simplify algorithm design.
+

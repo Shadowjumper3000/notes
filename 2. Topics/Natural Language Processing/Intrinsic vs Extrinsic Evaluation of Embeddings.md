@@ -28,3 +28,4 @@ Intrinsic evaluation measures embedding quality on dedicated word-vector benchma
 
 > [!warning] Common Misconception
 > High analogy-test accuracy does not imply the embeddings capture "true" meaning. The analogy test rewards linear structure in a specific geometric configuration — a useful proxy, but not meaning itself.
+

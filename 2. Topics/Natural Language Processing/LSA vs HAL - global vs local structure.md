@@ -29,3 +29,4 @@ LSA and HAL both aim to extract semantic structure from co-occurrence patterns, 
 They represent two complementary upgrades over raw BoW:
 - LSA: “compress and denoise global usage”
 - HAL: “encode local context explicitly”
+

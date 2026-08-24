@@ -14,3 +14,4 @@ Consider a dataset with two classes arranged in concentric circles.
 
 ## Geometric Intuition
 A linear transformation can rotate, reflect, scale, and shear space. When combined with a non-linear [[Activation Functions]], the network can perform "folds" or "warps" in space, allowing it to learn complex boundaries.
+

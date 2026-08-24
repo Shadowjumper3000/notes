@@ -26,3 +26,4 @@ image_rec = np.real(ifft2(ifftshift(F)))  # reconstruct
 
 ## Significance
 The 2D Fourier transform is the foundation of all frequency-domain operations on images: filtering, the convolution theorem, image resizing in frequency space, and deconvolution.
+

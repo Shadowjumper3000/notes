@@ -22,3 +22,4 @@ Any geometric transformation (translation, rotation, scaling, affine, projective
 
 ## Significance
 Inverse warping + interpolation is the standard pipeline for all image geometric transformations: distortion correction, panorama stitching, image registration, and augmented reality.
+

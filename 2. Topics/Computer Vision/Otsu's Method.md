@@ -25,3 +25,4 @@ Otsu's method assumes the image histogram is bimodal (two clear peaks for foregr
 
 ## Significance
 Otsu's method eliminates the need to manually select a threshold — a major practical advantage. It is the standard baseline for automatic binarization in document processing and medical imaging.
+

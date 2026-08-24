@@ -22,3 +22,4 @@ SARSA is preferred in applications where safety and online performance are criti
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 6.4).
 - **Rummery, G. A., & Niranjan, M. (1994).** *On-line Q-learning using connectionist systems*. University of Cambridge, Department of Engineering. (Original introduction of SARSA).
 - **Singh, S., et al. (2000).** *Convergence Results for Single-Step On-Policy Reinforcement-Learning Algorithms*. Machine Learning, 38, 287-308.
+

@@ -14,3 +14,4 @@ The process of rescaling the features of a dataset so they share a common scale,
 
 ## Significance
 Normalization ensures that the model treats all features with appropriate relative importance and accelerates the training of neural networks.
+

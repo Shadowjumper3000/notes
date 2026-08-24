@@ -25,3 +25,4 @@ result = clahe.apply(img)
 
 ## Significance
 CLAHE is the standard contrast enhancement method for medical images (chest X-rays, fundus photography) where local contrast matters and noise amplification must be controlled.
+

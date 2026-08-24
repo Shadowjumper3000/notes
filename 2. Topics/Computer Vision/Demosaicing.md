@@ -22,3 +22,4 @@ More sophisticated methods use edge-aware interpolation to avoid colour fringing
 
 ## Significance
 Demosaicing is the first image processing step in virtually every digital camera. The quality of demosaicing affects sharpness, colour accuracy, and the appearance of artefacts (aliasing, moiré, colour fringing).
+

@@ -28,3 +28,4 @@ Requires **3 point correspondences** to solve for 6 degrees of freedom.
 
 ## Significance
 Affine transformations model camera changes that don't change viewpoint significantly (e.g., small zoom changes, document scanning). They are a computationally cheaper alternative to homography when the scene is approximately planar.
+

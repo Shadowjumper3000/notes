@@ -30,3 +30,4 @@ A **depth map**: a per-pixel estimate of distance from the camera.
 
 ## Significance
 Stereo vision is the simplest form of 3D reconstruction from images. It is used in autonomous driving, robotics, and medical imaging.
+

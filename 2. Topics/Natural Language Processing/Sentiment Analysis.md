@@ -43,3 +43,4 @@ Sentiment Analysis is widely used in:
 > - How does VADER handle negation and intensifiers?
 > - What are the limitations of lexicon-based sentiment analysis on domain-specific text?
 > - What makes aspect-based sentiment analysis harder than document-level SA?
+

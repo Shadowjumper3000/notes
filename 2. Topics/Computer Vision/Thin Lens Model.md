@@ -18,3 +18,4 @@ Where:
 - $f$: focal length
 - $d_o$: object distance
 - $d_i$: image distance
+

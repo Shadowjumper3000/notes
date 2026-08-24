@@ -28,3 +28,4 @@
 
 ## Place in the pipeline
 HAL is a “local context” method. Compare with LSA’s global latent factorization in [[Latent Semantic Analysis (LSA)]] and [[LSA vs HAL - global vs local structure]].
+

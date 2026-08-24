@@ -25,3 +25,4 @@ Named Entity Recognition (NER) locates and classifies named entities in text int
 > - Why is NER harder than POS tagging?
 > - How does a CRF layer improve over a simple softmax for sequence labelling?
 > - What makes BERT-based NER more effective than CRF-based systems?
+

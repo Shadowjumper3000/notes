@@ -16,3 +16,4 @@ Pretrained transformer models are large neural models trained on massive corpora
 - Internal assumptions are implicit and difficult to interpret.
 - Higher computational cost and operational complexity than classical methods.
 - Requires managing model size, latency, and deployment constraints.
+

@@ -55,3 +55,4 @@ It is the conceptual base of sparse NLP representations and helps explain:
 - Vocabulary growth increases dimensionality linearly.
 - Captures neither synonymy (different words, similar meaning) nor polysemy (same word, multiple senses).
 - Inefficient for similarity search without additional structure (weighting, factorization, or learned embeddings).
+

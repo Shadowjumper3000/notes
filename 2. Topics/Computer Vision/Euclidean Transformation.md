@@ -23,3 +23,4 @@ Requires **2 point correspondences** to solve for the 3 degrees of freedom.
 
 ## Significance
 Euclidean transformations model rigid motion — used in tracking, medical image registration, and robot odometry where shape and scale must be preserved.
+

@@ -19,3 +19,4 @@ where:
 - $\lambda$ is the wavelength of light.
 
 This arises by equating geometric blur diameter with diffraction blur diameter in simplified models.
+

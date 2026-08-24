@@ -26,3 +26,4 @@ Local adaptive thresholding can be implemented efficiently as:
 
 ## Significance
 Adaptive thresholding is effective for document binarisation (text on unevenly lit paper) and general segmentation in uncontrolled lighting conditions — situations where global [[Otsu's Method]] fails.
+

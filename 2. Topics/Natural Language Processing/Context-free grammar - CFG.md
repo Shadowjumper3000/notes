@@ -18,3 +18,4 @@ A context-free grammar is a rule system that generates sentences by repeatedly r
 - Hierarchical phrase structure (constituents).
 - Recursion and nesting (theoretically unbounded structures).
 - Syntactic well-formedness defined by derivability under the grammar.
+

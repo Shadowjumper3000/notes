@@ -30,3 +30,4 @@ ABSA pipeline stages:
 
 > [!warning] Common Misconception
 > Aspect terms are not always noun phrases. Implicit aspects occur frequently: *"It broke after a week"* implies a negative aspect on *durability* without ever stating the word.
+

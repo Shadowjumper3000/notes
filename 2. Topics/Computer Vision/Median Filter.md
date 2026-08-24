@@ -32,3 +32,4 @@ The median filter is the standard solution for salt-and-pepper noise and is used
 
 - Nonlinear Filters
 <!-- unified:backlinks:end -->
+

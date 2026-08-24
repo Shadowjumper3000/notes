@@ -26,3 +26,4 @@ BERT-based NER fine-tunes a pretrained BERT encoder for token classification by 
 ## Significance
 
 BERT-based systems pushed NER F1 above 93% on CoNLL-2003 English, compared to ~85–89% for BiLSTM-CRF systems, largely eliminating the need for manual feature engineering.
+

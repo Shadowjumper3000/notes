@@ -9,3 +9,4 @@ Photometric image formation deals with the transformation of light energy into p
 2. **Irradiance:** The amount of light falling on the camera sensor. (Depends on [[Aperture]] and lens properties).
     
 3. **[[Exposure]]:** The integration of light over time.
+

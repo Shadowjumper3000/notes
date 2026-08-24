@@ -49,3 +49,4 @@ Word embeddings are foundational to almost all modern NLP tasks:
 > - How does GloVe combine global co-occurrence statistics with local context?
 > - Why does fastText handle OOV words better than Word2Vec?
 > - What is the analogy test and what does passing it imply about an embedding space?
+

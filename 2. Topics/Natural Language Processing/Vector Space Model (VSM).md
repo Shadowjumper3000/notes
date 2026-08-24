@@ -4,7 +4,7 @@
 ## Definition
 A **Vector Space Model** represents linguistic objects (documents, queries, words) as **vectors of features** derived from a corpus, placing them in a **continuous numerical space** where **proximity corresponds to similarity**.
 
-!3. Images/Pasted image 20260128122027.png
+!3. Images/vector-space-model.png
 
 ## Core Idea: Symbols → Space
 - Earlier representations treat language as **discrete symbols** (tokens), where relationships are defined via **order, adjacency, or frequency**.

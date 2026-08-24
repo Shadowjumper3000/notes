@@ -26,3 +26,4 @@ Many objects appear at different sizes in images. Template matching (or feature 
 
 ## Significance
 Image pyramids are fundamental to multi-scale analysis in computer vision. They underlie scale-invariant feature detection (SIFT, ORB), optical flow estimation, and efficient coarse-to-fine search strategies.
+

@@ -12,3 +12,4 @@ Vignetting correction compensates for brightness falloff toward image corners.
 
 - Imaging
 <!-- unified:backlinks:end -->
+

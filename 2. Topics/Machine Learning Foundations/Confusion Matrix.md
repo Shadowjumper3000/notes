@@ -19,3 +19,4 @@ For a binary classifier, the matrix is a $2 \times 2$ grid:
 
 ## Significance
 The confusion matrix provides a granular view of where the model is failing, allowing developers to calculate all core evaluation metrics and understand the practical consequences of different error types.
+

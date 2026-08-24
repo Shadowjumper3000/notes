@@ -23,3 +23,4 @@ TD learning is the engine behind most modern RL successes:
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapters 6, 7, and 12).
 - **Tesauro, G. (1995).** *Temporal difference learning and TD-Gammon*. Communications of the ACM, 38(3), 58-68.
 - **Schultz, W., Dayan, P., & Montague, P. R. (1997).** *A neural substrate of prediction and reward*. Science, 275(5306), 1593-1599. (Dopamine and TD).
+

@@ -14,3 +14,4 @@ In the linear equation $y = mx + b$, the bias is the **y-intercept**.
 ## Diagram
 
 !3. Images/perceptron_bias_effect.png
+

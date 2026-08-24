@@ -19,3 +19,4 @@ Cameras mimic trichromatic vision: each pixel is covered by a colour filter (R, 
 
 ## Significance
 Trichromacy is the biological reason that RGB is sufficient for colour display and capture. All practical colour models (RGB, HSV, CIE XYZ) are projections of the continuous spectrum through this 3D filter.
+

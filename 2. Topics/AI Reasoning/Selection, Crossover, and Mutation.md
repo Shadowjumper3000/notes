@@ -77,3 +77,4 @@ Mutation probability is kept small (e.g. 1–5%) to avoid destroying fit structu
 ## Significance
 
 The choice and tuning of these operators determines convergence speed and solution quality. Tournament selection is preferred in multi-objective settings (NSGA-II) because it works on relative fitness rankings, which remain meaningful across objectives.
+

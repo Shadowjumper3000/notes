@@ -14,3 +14,4 @@ $$ \mathcal{L} = - [y \log(\hat{y}) + (1-y) \log(1-\hat{y})] $$
 
 ## Significance
 Minimizing cross-entropy is equivalent to maximizing the likelihood of the observed data. In the context of Maximum Entropy models, this reduction of surprise on observed data leads to a model that is consistent with the data while maintaining maximum uncertainty (entropy) elsewhere.
+

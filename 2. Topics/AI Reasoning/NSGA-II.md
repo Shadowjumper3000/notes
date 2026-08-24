@@ -44,3 +44,4 @@ summed over all objectives $o$.
 ## Significance
 
 NSGA-II is the standard benchmark algorithm for multi-objective evolutionary optimisation. It is available in Python via `pymoo` and DEAP. Its two-level comparison operator (rank first, then crowding distance) elegantly balances convergence toward the Pareto front with diversity along it.
+

@@ -15,3 +15,4 @@ Common NLP pipeline stages are the typical processing steps that transform raw t
 
 ## Pipeline implication
 A “pipeline” is not only a sequence of functions; it defines intermediate representations and constrains how downstream tasks consume upstream outputs.
+

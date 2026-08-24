@@ -29,3 +29,4 @@ Word2Vec has been applied to a wide range of tasks beyond just providing feature
 - Mikolov, T., et al. (2013). "Distributed Representations of Words and Phrases and their Compositionality." (Introduced Negative Sampling)
 - Goldberg, Y., & Levy, O. (2014). "word2vec Explained: Deriving Mikolov et al.'s Negative-Sampling Word-Embedding Method."
 - Jurafsky, D., & Martin, J. H. *Speech and Language Processing* (3rd ed. draft).
+

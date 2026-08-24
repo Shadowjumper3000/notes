@@ -1,4 +1,4 @@
-**Status:** #active
+#active #topic 
 ---
 # Knowledge Map
 ## Module 1: Image Formation & Cameras

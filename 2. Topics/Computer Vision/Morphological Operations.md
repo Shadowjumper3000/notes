@@ -50,3 +50,4 @@ For grayscale images: erosion = local **minimum**, dilation = local **maximum** 
 
 ## Significance
 Morphological operations are used in document processing, medical image segmentation, and binary object analysis to enforce prior knowledge about shape and connectivity.
+

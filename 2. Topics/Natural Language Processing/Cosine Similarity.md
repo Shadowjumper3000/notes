@@ -28,3 +28,4 @@ It emphasizes **direction** rather than magnitude.
 
 - Geometric View
 <!-- unified:backlinks:end -->
+

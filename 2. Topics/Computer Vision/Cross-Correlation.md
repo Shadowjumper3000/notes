@@ -28,3 +28,4 @@ Cross-correlation is sensitive to:
 
 ## Significance
 Cross-correlation is the mathematical foundation of [[Template Matching]] and is also accelerated by the [[Convolution Theorem]] (multiplication in Fourier space).
+

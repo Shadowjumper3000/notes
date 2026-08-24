@@ -30,3 +30,4 @@ Support Vector Machines (SVMs) are supervised learning models that find the maxi
 > - Explain the role of the regularisation parameter $C$ in soft-margin SVMs.
 > - How does the kernel trick allow SVMs to classify non-linearly separable data?
 > - Write the SVM primal optimisation objective and describe each term.
+

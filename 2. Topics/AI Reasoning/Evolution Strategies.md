@@ -45,3 +45,4 @@ ES was created in the early 1960s and developed in the 1970s by Ingo Rechenberg 
 ## Significance
 
 ES methods are the foundation of modern black-box optimisation for RL. The OpenAI ES (2017) scales the $(1,\lambda)$-ES idea to thousands of parallel workers and achieves competitive performance with deep RL on continuous control benchmarks, demonstrating that gradient-free optimisation can match gradient-based methods at scale.
+

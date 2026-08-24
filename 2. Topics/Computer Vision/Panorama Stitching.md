@@ -19,3 +19,4 @@ Homography stitching is exact only for **planar scenes** or **pure camera rotati
 
 ## Significance
 Panorama stitching is one of the clearest demonstrations of homography applied to real images and is the basis for 360° photography and virtual tour creation.
+

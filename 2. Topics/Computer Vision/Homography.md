@@ -24,3 +24,4 @@ Requires **4 point correspondences**. In practice, many noisy correspondences ar
 
 ## Significance
 Homography is the fundamental tool for planar scene reconstruction and image alignment. It directly models the geometry of a camera change for flat scenes.
+

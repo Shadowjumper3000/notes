@@ -33,3 +33,4 @@ Standard local beam search suffers from diversity loss — all $W$ states may cl
 ## Significance
 
 Local beam search illustrates the population-based principle that underlies evolutionary computation: maintaining diversity while concentrating evaluation on the most promising candidates. Understanding it provides a clean conceptual foundation for genetic algorithms and their relationship to classical search.
+

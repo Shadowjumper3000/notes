@@ -11,3 +11,4 @@ The semantic gap is the mismatch between having a correct syntactic structure (a
 
 ## Why it matters
 The semantic gap motivates meaning representations that make semantic roles and relations explicit, rather than treating syntactic well-formedness as sufficient for understanding.
+

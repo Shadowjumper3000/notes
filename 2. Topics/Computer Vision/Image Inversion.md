@@ -17,3 +17,4 @@ $$
 the sign of the coordinates (with focal distance defined behind the pinhole) produces an **inverted** image when interpreted relative to scene orientation.
 
 If $Z > 0$, and we define $f > 0$, this conventionally yields the inverted orientation in the image plane.
+

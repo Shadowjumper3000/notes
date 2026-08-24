@@ -17,7 +17,7 @@ An in-place comparison sorting algorithm that divides the input list into two pa
 5. Repeat for the remaining unsorted elements.
 
 Animation:
-!3. Images/selection-sort-0-dc86a88ab889d19e8ffad6cba3eb6e2f 1.gif
+!3. Images/selection-sort.gif
 # Complexity Analysis
 
 - **Worst Case:** $O(n^2)$.
@@ -35,3 +35,4 @@ Unlike [[Insertion Sort]], Selection Sort is **not** adaptive; it takes the same
 
 - Computer Programming
 <!-- unified:backlinks:end -->
+

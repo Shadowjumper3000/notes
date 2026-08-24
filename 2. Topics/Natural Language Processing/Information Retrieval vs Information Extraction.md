@@ -13,3 +13,4 @@ Focuses on **identifying and structuring specific pieces of information** within
 ## Significance
 IR helps find *where* the information might be, while IE extracts the 
 *what* within those sources.
+

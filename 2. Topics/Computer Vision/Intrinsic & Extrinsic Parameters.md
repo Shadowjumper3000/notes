@@ -29,3 +29,4 @@ This $3 \times 4$ projection matrix maps a 3D world point (homogeneous) directly
 
 ## Significance
 Separating intrinsic and extrinsic parameters allows cameras to be re-used across scenes: calibrate once (intrinsics), then update only the pose (extrinsics) per scene.
+

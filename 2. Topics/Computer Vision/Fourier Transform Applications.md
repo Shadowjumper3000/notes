@@ -12,3 +12,4 @@ This hub covers the practical applications of the 2D Fourier transform in image 
 ### 2. Fourier-Space Operations
 - [[Nyquist Theorem]]
 - [[Deconvolution]]
+

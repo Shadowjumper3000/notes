@@ -24,3 +24,4 @@ In a neural CRF (BiLSTM-CRF): the BiLSTM produces per-token emission scores; the
 
 > [!warning] Common Misconception
 > CRFs model label-to-label transitions, not label-to-label causation. The transition matrix captures co-occurrence statistics from training data — it cannot reason about entities it hasn't seen labelled.
+

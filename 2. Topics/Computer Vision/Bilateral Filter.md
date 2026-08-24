@@ -30,3 +30,4 @@ Bilateral filtering is **non-linear** and therefore cannot be accelerated via FF
 
 ## Significance
 The bilateral filter is the foundation of many advanced filtering techniques (guided image filter, joint bilateral filter) and is used in portrait photography, depth map upsampling, and HDR tone mapping.
+

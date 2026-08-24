@@ -25,3 +25,4 @@ Choosing the number of neighbors is a classic **Bias-Variance Tradeoff**:
 - **Choosing $k$**: Optimized by minimizing validation error. 
 - **Feature Scaling**: Crucial because distance is scale-dependent. Unscaled features with large ranges will dominate the metric. See [[Normalization (Data)]].
 - **Curse of Dimensionality**: As dimensions increase, points become sparse and "equally far" from each other, breaking the local heuristic.
+

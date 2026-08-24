@@ -28,3 +28,4 @@ Advanced variants, such as **Prioritized Experience Replay (PER)**, improve upon
 - **Mnih, V., et al. (2015).** *Human-level control through deep reinforcement learning*. Nature. (Standardized its use in Deep RL).
 - **Schaul, T., et al. (2015).** *Prioritized Experience Replay*. ICLR. (Introduced the prioritization mechanism).
 - **Andrychowicz, M., et al. (2017).** *Hindsight Experience Replay*. Advances in Neural Information Processing Systems (NIPS).
+

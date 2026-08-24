@@ -24,3 +24,4 @@ where:
 - $d$ is aperture diameter.
 
 The total blur is the sum (or convolution) of the individual blur effects in many models.
+

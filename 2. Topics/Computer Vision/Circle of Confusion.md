@@ -17,3 +17,4 @@ $$
 Where:
 - $b$: blur diameter
 - $c$: maximum acceptable circle of confusion (e.g., one pixel)
+

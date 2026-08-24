@@ -19,3 +19,4 @@ Intensity transformations act on each pixel independently of its neighbours, alt
 
 - Formula Sheet
 <!-- unified:backlinks:end -->
+

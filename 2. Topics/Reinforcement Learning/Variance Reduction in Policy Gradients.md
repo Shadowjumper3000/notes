@@ -41,3 +41,4 @@ Instead of sampling actions from the policy at every step, sample policy *parame
 ## Significance
 
 Variance reduction is the central engineering challenge in policy gradient methods. Practically all modern algorithms (A2C, A3C, PPO, TRPO) pair an actor with a critic precisely because the critic provides a low-variance advantage estimate that makes policy updates tractable at scale.
+

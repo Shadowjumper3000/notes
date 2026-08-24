@@ -28,3 +28,4 @@ The inverse transform reconstructs the original signal from its spectrum. (Note 
 
 ## Significance
 The Fourier transform reveals the frequency content of any signal. In images, it separates slow-varying regions (low frequencies) from edges and fine details (high frequencies), enabling [[Frequency Domain Filtering]].
+

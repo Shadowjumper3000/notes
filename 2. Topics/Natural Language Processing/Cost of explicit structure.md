@@ -12,3 +12,4 @@ The cost of explicit structure is the practical overhead of representing languag
 
 ## Consequence for modern NLP
 Because explicit structure is costly to build and keep correct at scale, many modern systems approximate structure statistically, accepting reduced interpretability in exchange for robustness and empirical performance.
+

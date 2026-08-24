@@ -38,3 +38,4 @@ To reduce variance, each perturbation $\epsilon_i$ is paired with $-\epsilon_i$,
 ## Significance
 
 OpenAI ES demonstrated in 2017 that carefully engineered ES methods can match deep RL algorithms on continuous control benchmarks while offering superior parallelism, simpler implementation, and robustness to reward sparsity and long time horizons. It renewed interest in derivative-free optimisation for deep RL.
+

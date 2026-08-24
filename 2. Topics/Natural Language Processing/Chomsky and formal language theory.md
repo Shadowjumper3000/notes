@@ -10,3 +10,4 @@ Formal language theory (associated with Chomsky) treats language as a mathematic
 
 ## Impact on early NLP
 This view shaped early computational NLP around parsing and grammaticality: designing grammars, deriving parse trees, and modeling hierarchical structure and recursion.
+

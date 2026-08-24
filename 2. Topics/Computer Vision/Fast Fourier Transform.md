@@ -27,3 +27,4 @@ x_rec = np.fft.ifft2(X)        # inverse FFT
 
 ## Significance
 Without the FFT, frequency-domain filtering of large images would be computationally infeasible. The FFT makes [[Convolution Theorem]] acceleration of large-kernel convolutions practical.
+

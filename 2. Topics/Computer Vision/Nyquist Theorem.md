@@ -26,3 +26,4 @@ Sampling in the spatial domain = multiplying by an impulse train. In the Fourier
 
 ## Significance
 The Nyquist theorem defines the fundamental limit of digital imaging: there is no benefit in having more pixels than twice the optical resolution, and too few pixels cause aliasing artefacts.
+

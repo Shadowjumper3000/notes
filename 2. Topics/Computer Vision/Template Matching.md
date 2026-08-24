@@ -30,3 +30,4 @@ min_val, max_val, min_loc, max_loc = cv2.minMaxLoc(res)
 
 ## Significance
 Template matching is the baseline object detection method. It is widely used in quality inspection, medical image registration, and as a subroutine in more advanced detectors. The [[Convolution Theorem]] makes it feasible for large images and templates.
+

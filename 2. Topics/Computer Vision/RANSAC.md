@@ -32,3 +32,4 @@ With enough iterations, there is a high probability that at least one sample wil
 
 ## Significance
 RANSAC is the de facto standard for robust geometric estimation in computer vision — used in feature matching, panorama stitching, structure from motion, and visual odometry.
+

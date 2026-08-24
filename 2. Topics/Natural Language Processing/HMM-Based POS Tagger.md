@@ -28,3 +28,4 @@ $$P(\mathbf{w}, \mathbf{t}) = \prod_{i=1}^{n} P(t_i \mid t_{i-1}) \cdot P(w_i \m
 
 > [!warning] Common Misconception
 > The HMM tagger sees only the previous tag — it is blind to the next word or the word before the previous. This bigram Markov assumption misses long-range syntactic dependencies that neural models capture naturally.
+

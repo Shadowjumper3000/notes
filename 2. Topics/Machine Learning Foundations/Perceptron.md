@@ -14,11 +14,11 @@ $$y = f(\sum_{i=1}^{n} w_i x_i + b)$$
 
 ## Structure 
 
-!3. Images/perceptron_labeled (2).png
+!3. Images/perceptron-labeled.png
 
 ## Performance on data
 
-!3. Images/Pasted image 20260128120653.png
+!3. Images/perceptron-diagram.png
 
 ## Significance
 It was the first model that could learn from data by adjusting its weights to minimize error, forming the building block of modern Deep Learning.

@@ -28,3 +28,4 @@ Turing avoided defining "thinking" directly. Instead, he proposed a practical ex
 
 - Language
 <!-- unified:backlinks:end -->
+

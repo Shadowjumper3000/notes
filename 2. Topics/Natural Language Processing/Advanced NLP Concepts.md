@@ -34,3 +34,4 @@ This hub covers classical vector-space approaches to NLP: how text moves from di
 - [[Latent Semantic Analysis (LSA)]]
 - [[HAL - Contextual Co-occurrence]]
 - [[LSA vs HAL - global vs local structure]]
+

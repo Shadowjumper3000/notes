@@ -31,3 +31,4 @@ Unlike value-based methods, policy gradients can learn **stochastic optimal poli
 - **Sutton, R. S., et al. (1999).** *Policy gradient methods for reinforcement learning with function approximation*. Advances in Neural Information Processing Systems (NIPS). (The paper establishing the Policy Gradient Theorem).
 - **Williams, R. J. (1992).** *Simple statistical gradient-following algorithms for connectionist reinforcement learning*. Machine Learning. (Introduces REINFORCE).
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 13: Policy Gradient Methods).
+

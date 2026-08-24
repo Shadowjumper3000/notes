@@ -8,3 +8,4 @@ Lens aberrations are deviations from ideal image formation caused by physical li
 - [[Vignetting]]
 - [[Chromatic Aberration]]
 - Geometric Distortion
+

@@ -22,3 +22,4 @@ Prompt engineering is used across many domains to optimize LLM performance:
 - Brown, T., et al. (2020). "Language Models are Few-Shot Learners."
 - Reynolds, L., & McDonell, K. (2021). "Prompt Programming for Large Language Models: Beyond the Few-Shot Paradigm."
 - Jurafsky, D., & Martin, J. H. *Speech and Language Processing* (3rd ed. draft).
+

@@ -39,3 +39,4 @@ g = np.real(ifft2(ifftshift(G)))
 
 ## Significance
 Frequency domain filtering offers an intuitive way to design filters for specific scales, and is computationally efficient via [[Convolution Theorem]] + [[Fast Fourier Transform]].
+

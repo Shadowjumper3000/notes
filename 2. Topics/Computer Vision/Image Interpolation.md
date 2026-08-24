@@ -28,3 +28,4 @@ Bilinear extended to 3D — e.g., for volumetric data or image pyramids.
 
 ## Significance
 The choice of interpolation method introduces a trade-off between computation cost and quality. Nearest neighbour is used in speed-critical paths; bicubic is preferred for display and print.
+

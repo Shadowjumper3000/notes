@@ -40,3 +40,4 @@ GP currently presents a broad range of opportunities in numerical-algorithm para
 ## Significance
 
 Genetic programming extends the reach of evolutionary search from parameter vectors to the space of programs and architectures. In the RL context, it enables the joint optimisation of both the policy representation and its parameters, as exemplified by NEAT and modern neural architecture search.
+

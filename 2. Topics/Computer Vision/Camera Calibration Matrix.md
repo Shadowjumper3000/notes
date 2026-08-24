@@ -21,3 +21,4 @@ $K$ has **5 intrinsic parameters**: $f_x, f_y, c_x, c_y$, and optionally a skew 
 
 ## Significance
 $K$ is what makes a camera "calibrated." Knowing $K$ allows converting pixel coordinates back to angular directions in the scene, which is required for 3D reconstruction and augmented reality.
+

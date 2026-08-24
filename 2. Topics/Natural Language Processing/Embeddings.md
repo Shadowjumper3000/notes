@@ -26,3 +26,4 @@ Embeddings implement the distributional idea that meaning comes from usage, but 
 
 - Visual Representation And Concepts
 <!-- unified:backlinks:end -->
+

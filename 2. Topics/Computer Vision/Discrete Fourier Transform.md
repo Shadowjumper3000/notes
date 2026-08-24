@@ -31,3 +31,4 @@ x_rec = np.fft.ifft(X)     # inverse
 
 ## Significance
 The DFT is the bridge from continuous Fourier theory to digital computation. Combined with the FFT, it enables frequency-domain filtering, compression (JPEG uses DCT), and spectral analysis.
+

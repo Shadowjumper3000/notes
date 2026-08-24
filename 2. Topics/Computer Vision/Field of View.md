@@ -8,3 +8,4 @@ $$\text{FOV} (\alpha) = 2 \cdot \arctan\left(\frac{h}{2f}\right)$$
 - **Wide Angle (Short** $f$**):** Large FOV, capturing more of the scene.
     
 - **Telephoto (Long** $f$**):** Small FOV, capturing a narrow slice (zoomed in).
+

@@ -18,3 +18,4 @@ Basic sorting algorithms are simple methods to rearrange elements in a specific 
 - **[[Selection Sort]]:** Repeatedly selects the smallest element and moves it to the sorted position.
     
 - **[[Bubble Sort]]:** Repeatedly swaps adjacent elements if they are in the wrong order.
+

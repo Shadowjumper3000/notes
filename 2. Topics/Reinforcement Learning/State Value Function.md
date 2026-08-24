@@ -26,3 +26,4 @@ State-value functions are widely used in evaluating and improving agent behavior
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapters 3, 4, and 9).
 - **Silver, D., et al. (2016).** *Mastering the game of Go with deep neural networks and tree search*. Nature, 529(7587), 484-489. (Value network application).
 - **Bellman, R. (1957).** *Dynamic Programming*. Princeton University Press. (The original source for Bellman Equations).
+

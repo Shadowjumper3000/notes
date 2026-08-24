@@ -37,3 +37,4 @@ Evolutionary computation is a family of population-based, metaheuristic optimiza
 > - Describe the three main genetic operators (selection, crossover, mutation) and give one concrete variant of each.
 > - How does NSGA-II handle multi-objective optimization, and what is the purpose of crowding distance?
 > - What are the three key innovations in NEAT that distinguish it from earlier neuroevolution approaches?
+

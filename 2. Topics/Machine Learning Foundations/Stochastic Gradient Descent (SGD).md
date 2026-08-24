@@ -19,3 +19,4 @@ In traditional Batch Gradient Descent, the loss curve is smooth and deterministi
 
 ## Disadvantages
 **Noisy Convergence**: The loss does not decrease monotonically; it "zigzags" around the minimum and may never perfectly settle without a [[Learning Rate Schedules]].
+

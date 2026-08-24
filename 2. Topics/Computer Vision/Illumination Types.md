@@ -19,3 +19,4 @@ Illumination describes the light sources in a scene that interact with surfaces 
 
 ## Significance
 Controlled illumination is a practical tool to reduce the complexity of vision algorithms — it is why industrial vision systems use structured lighting rather than relying on ambient light.
+

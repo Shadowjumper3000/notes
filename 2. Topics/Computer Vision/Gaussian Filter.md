@@ -27,3 +27,4 @@ out_sep = cv2.sepFilter2D(img, -1, g1d, g1d)  # equivalent
 
 ## Significance
 Gaussian filtering is ubiquitous: it models optical defocus (via [[Point Spread Function]]), underpins multi-scale analysis (image pyramids), and is the standard pre-processing step before edge detection.
+

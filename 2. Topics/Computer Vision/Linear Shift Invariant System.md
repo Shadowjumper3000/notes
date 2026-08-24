@@ -20,3 +20,4 @@ where $h$ is the system's response to a [[Point Spread Function|unit impulse]].
 
 ## Significance
 The LSI framework provides a unified theory for all linear image filters. It explains why filtering can be described purely by a kernel, and justifies using the Fourier transform for efficient implementation via the [[Convolution Theorem]].
+

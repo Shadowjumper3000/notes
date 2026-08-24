@@ -35,3 +35,4 @@ Because weights are copied (not just hyperparameters), PBT effectively allows po
 ## Significance
 
 PBT is widely used at DeepMind and Google Brain to train large RL agents (AlphaStar, AlphaFold). It bridges evolutionary computation and modern deep learning by applying population-level selection pressure to the training process itself rather than to end-of-training performance.
+

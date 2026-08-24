@@ -25,3 +25,4 @@ From the dynamics function, other useful quantities are derived, such as the sta
 - **Sutton, R. S., & Barto, A. G. (2018).** *Reinforcement Learning: An Introduction*. MIT Press. (Chapter 3: Finite Markov Decision Processes).
 - **Puterman, M. L. (1994).** *Markov Decision Processes: Discrete Stochastic Dynamic Programming*. John Wiley & Sons. (The definitive graduate-level text).
 - **Bellman, R. (1957).** *A Markovian Decision Process*. Journal of Mathematics and Mechanics.
+

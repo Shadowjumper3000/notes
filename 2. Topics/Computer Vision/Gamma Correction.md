@@ -28,3 +28,4 @@ Human vision has a non-linear response to luminance (we are more sensitive to ch
 
 ## Significance
 Gamma correction is essential when performing linear operations (e.g., convolution, filtering) on images: they must first be **linearised** ($\gamma = 1/2.2$) so that pixel values represent physical light levels.
+

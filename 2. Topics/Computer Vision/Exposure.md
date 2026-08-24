@@ -16,3 +16,4 @@ Exposure is the total amount of light collected by the sensor.
 - Imaging
 - Image Sensors
 <!-- unified:backlinks:end -->
+

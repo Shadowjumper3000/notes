@@ -25,3 +25,4 @@ Image a point source (e.g., a star or a pinhole) through the optical system. The
 
 ## Significance
 Knowing the PSF enables deblurring (restoring a sharp image from a blurry one). This is critical in astronomy, microscopy, and medical imaging.
+

@@ -22,4 +22,4 @@ It is essentially a directed acyclic graph.
 ### Role of Hidden Layers
 Hidden layers learn to **transform features** into a new space where the data becomes linearly separable. Geometrically, they can be seen as "deforming" the input space or composing simple line boundaries into complex convex polygons.
 
-!3. Images/Pasted image 20260116111433.png
+!3. Images/feedforward-neural-network.png

@@ -21,3 +21,4 @@ The **Neural Era (2014–Present)** began with the adoption of word embeddings (
 - Chomsky, N. (1957). *Syntactic Structures*.
 - Manning, C. D., & Schütze, H. (1999). *Foundations of Statistical Natural Language Processing*.
 - Vaswani, A., et al. (2017). "Attention Is All You Need."
+

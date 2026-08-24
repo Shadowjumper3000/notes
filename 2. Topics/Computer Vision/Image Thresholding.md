@@ -26,3 +26,4 @@ Controlled environments with uniform lighting (e.g., industrial inspection lines
 
 ## Significance
 Despite its simplicity, thresholding is the basis of many binary image operations (morphology, connected components) and remains practical in constrained settings.
+

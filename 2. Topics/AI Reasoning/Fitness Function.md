@@ -29,3 +29,4 @@ In RL applications the fitness of a neural-network controller is typically the t
 ## Significance
 
 Fitness function design is often the most consequential engineering decision in applying evolutionary computation. A poorly designed fitness function leads to deceptive landscapes where the algorithm converges to local optima far from the true solution. In RL, fitness shaping analogises to reward shaping and faces the same potential pitfalls.
+

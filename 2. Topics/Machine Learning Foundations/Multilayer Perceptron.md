@@ -20,9 +20,10 @@ Each neuron in the hidden layer defines a linear decision boundary (a line in 2D
 A linear layer (matrix multiplication) can only rotate, reflect, scale, or shear the input space. Adding a non-linear [[Activation Functions]] allows the network to **warp** or **fold** the space, bringing points that were originally far apart (and non-linearly separable) closer together so they can be separated by a single plane.
 
 ## Visualizations
-!3. Images/SCR-20260128-kwns.png
-!3. Images/Pasted image 20260128120338.png
-!3. Images/Pasted image 20260128120945.png
+!3. Images/multilayer-perceptron.png
+!3. Images/mlp-architecture.png
+!3. Images/mlp-hidden-layers.png
 
 ## Significance
 The inclusion of hidden layers and non-linear [[Activation Functions]] allows MLPs to act as universal function approximators.
+

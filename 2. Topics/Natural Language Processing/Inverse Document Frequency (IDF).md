@@ -34,3 +34,4 @@ See [[TF–IDF]].
 ## Limitations (IDF alone)
 - IDF does not model semantics; it only measures global rarity.
 - A rare term can still be irrelevant to a specific query or document’s meaning without contextual matching.
+

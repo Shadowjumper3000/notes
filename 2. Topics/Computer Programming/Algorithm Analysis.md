@@ -18,3 +18,4 @@ The goal is to predict the performance of an algorithm as the input size ($n$) g
 # Asymptotic Equivalence
 
 We look for the asymptotic equivalence ($f(n) \sim g(n)$) where the limit of the ratio between the actual time and the approximated function approaches 1 as $n \to \infty$. This allows us to ignore constants and lower-order terms.
+

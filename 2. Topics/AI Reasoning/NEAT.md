@@ -55,3 +55,4 @@ Each genome contains two lists:
 ### Python Implementation
 
 The NEAT-Python library (pure Python, no dependencies beyond stdlib) implements the full NEAT algorithm with configurable activation functions, genome interface, and reproduction interface. Documentation: https://neat-python.readthedocs.io/en/latest/
+

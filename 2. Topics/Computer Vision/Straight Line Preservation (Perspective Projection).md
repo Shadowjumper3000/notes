@@ -20,3 +20,4 @@ x(t) = f \cdot \frac{X(t)}{Z(t)},\quad
 y(t) = f \cdot \frac{Y(t)}{Z(t)}
 $$
 the parametric form remains linear in image coordinates.
+

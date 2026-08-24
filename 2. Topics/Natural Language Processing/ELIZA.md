@@ -22,3 +22,4 @@ ELIZA did not "understand" text. It used **Pattern Matching** and **Substitution
 - Demonstrated that a computer could hold a plausible conversation without any semantic understanding of the subject matter.
     
 - Exposed the difference between **syntactic manipulation** (what ELIZA did) and **semantic understanding** (what users thought it did).
+

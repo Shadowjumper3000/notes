@@ -17,3 +17,4 @@ This hub covers neighbourhood-based image processing. Convolution is the fundame
 - [[Cross-Correlation]]
 - [[Template Matching]]
 - [[Image Pyramid]]
+

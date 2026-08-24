@@ -25,3 +25,4 @@ If the PSF is known (direction and length of motion), the Wiener filter can debl
 
 ## Significance
 Deconvolution is the fundamental image restoration technique. It is used in astronomy (Hubble deblurring), microscopy, and medical imaging to recover detail lost to optical limitations.
+

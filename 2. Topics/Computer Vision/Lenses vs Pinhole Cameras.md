@@ -10,3 +10,4 @@ Comparison between ideal pinhole cameras and lens-based cameras.
 
 ## Shared Property
 - Both perform perspective projection
+
